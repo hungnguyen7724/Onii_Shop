@@ -1,0 +1,426 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.top-header{
+    background: #ED3029;
+    height: 40px;
+}
+.main-header{
+    padding-left: 43px;
+    padding-bottom:30px;
+    background-image: url('../img/oni_web.png');
+}
+.main-header img{
+    max-width: 100%;
+    height: 130px;
+}
+.main-header-top>ul{
+    display: flex;
+    list-style-type: none;
+    padding: 10px 0;
+    margin-left: 4px;
+    color: white;
+}
+.main-header-top>ul>li{
+    padding: 0 5px;
+}
+.main-header-top a, .cart a{
+    text-decoration: none;
+    color: white;
+}
+.main-header-top a:hover ,.cart a:hover{
+    color: black;
+}
+.right{
+    float: right;
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.top-logo{
+    margin-left: -16px;
+    width: 40px;
+    height: 45px;
+    border-radius: 10px;
+    background: tomato;
+    border: white;
+}
+.banner.p-4 {
+    margin-left: 60px;
+}
+#banner2,#banner3{
+    height: 127px;
+    width: 399px;
+    border-radius: 2px;
+   
+}
+.banner-left{
+    width: 824px;
+    border-radius: 2px;
+}
+.banner-right.right {
+    padding-right: 65px;
+    float: right;
+}
+.main-header-top.right {
+    margin-right: 70px;
+}
+#banner1{
+    width: 830px;
+    height: 260px;
+   
+    border-radius: 2px;
+}
+#banner2{margin-bottom: 7px;}
+.line{ border-bottom: 1px #828282 solid;}
+.cart {
+    margin-top: 14px;
+    margin-left: -43px;
+    font-size: 20px;
+    color: white;
+}
+/* icon search */
+input.form-control {
+    padding: 10px;
+    margin-right: -69px;
+}
+.input-group-prepend {
+    padding: 0 -2px;
+    margin-top: 4px;
+    padding-right: 60px;
+}
+button#button-addon8 {
+    padding: 6px 23px;
+}
+/* Content */
+.cover-content{
+    background: #E5E5E5;
+}
+/* Category */
+
+.bg-danhmuc{ 
+    margin-left: 334px;
+    margin-right: 339px;
+    padding-bottom: 20%;
+    margin-top: -22px;
+    background: white;
+}
+.bg-danhmuc span {
+    font-size: 27px;
+    border: 2px #e5e5e5 solid;
+    padding: 0 11px 3px 11px;
+    border-radius: 50%;
+    font-weight: bold;
+    margin: 0 -10px;
+    background: white;
+}
+.bg-danhmuc h3{
+  padding: 10px;
+  color: #828282;
+}
+.bg-danhmuc .owl-theme .owl-nav {
+    margin: -358px -37px;
+}
+.category-farames{
+    border: 1px #f0f0f0 solid;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.item a{
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    font-size: .8rem;
+}
+.owl-carousel .owl-item img {
+    width: 72%;
+    text-align: center;
+    margin-left: 28px;
+}
+.owl-carousel .owl-nav button.owl-next{
+    font-size: 3rem;
+    margin-left: 96%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    font-size: 3rem;
+    margin-right:0;
+}
+.owl-theme .owl-nav{
+    margin: -18% -55px;
+    color: #828282;
+}
+.bg-danhmuc .owl-prev{
+    margin-top: -20%;
+}
+
+/* Flash sale */
+.flash-sale .owl-theme .owl-nav {
+    margin: -262px -37px;
+    color: #828282;
+}
+.fsale img{
+    border: #ED3029 solid 2px;
+}
+.flash-sale span {
+    font-size: 27px;
+    border: 2px #e5e5e5 solid;
+    padding: 0 11px 3px 11px;
+    border-radius: 50%;
+    font-weight: bold;
+    margin: 0 -10px;
+    background: white;
+}
+.flash-sale{
+    color: #EE4623;
+    font-weight: bold;
+    background: white;
+    margin-left: 334px;
+    margin-right: 339px;
+    padding-bottom: 9%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+.flash-sale h3{
+    margin-top: -2%;
+    margin-bottom: 2%;
+    margin-left: 10px;
+}
+.fsale img {
+    width: 100%;
+}
+.daban{
+    border-radius: 10px;
+    color: white;
+    background: #EE4623;
+    text-align: center;
+    margin: 11px 22px;
+    margin-left: 1px;
+}
+.owl-carousel .owl-nav button.owl-prev { 
+    font-size: 3rem;
+    margin-right: 0;
+    margin-top: 10%;
+    text-align: justify;
+}
+
+/* Xu Hướng Tìm Kiếm */
+#img-nuochoa {
+    margin-left: 5px;
+    max-width: 123%;
+    height: 89px;
+}
+#img-quanao{
+    padding-bottom: 1px;
+}
+
+.cover-xuhuong {
+    background: white;
+    margin-left: 334px;
+    margin-right: 339px;
+    padding-bottom: 45px;
+}
+.tainghe p {
+    margin-top: 10px;
+    margin-left: -18%;
+    font-size: 13px;
+    color: #828282;
+}
+
+.nuochoa{
+    border: #ED3029 2px solid;
+}
+/* Tìm kiếm hàng đầu */
+.toptimkiem .nuochoa-timkiem img{
+    height: 68px;
+    margin-left: -8px;
+}
+.timkiemhd .owl-carousel .owl-nav button.owl-prev {
+    font-size: 3rem;
+    margin-right: 0;
+    margin-top: 3%;
+    text-align: justify;
+}
+.timkiemhd span {
+    font-size: 27px;
+    border: 2px #e5e5e5 solid;
+    padding: 0 11px 3px 11px;
+    border-radius: 50%;
+    font-weight: bold;
+    margin: 0 -10px;
+    background: white;
+}
+.timkiemhd .owl-theme .owl-nav {
+    margin: -200px -37px;
+    color: #828282;
+}
+.cover-timkiem{
+    padding-bottom: 215px;
+    background: white;
+    margin-left: 334px;
+    margin-right: 339px;
+    margin-top: 30px;
+}
+.toptimkiem p{
+    padding-left: 29px;
+    color: #828282;
+}
+#ban-thang{
+    background: #FCB813;
+    margin-right: -90px;
+    padding-left: 14px;
+    margin-left: 13px;
+}
+#oplung{
+    padding: 10px 13px;
+    margin-right: -50px;
+    color: #828282;
+}
+#iphone-timkiem{
+    width: 100%;
+    height: 135px;
+}
+.toptimkiem {
+    border: orange 2px solid;
+    display: flex;
+    background: white;
+    margin-left: -2px;
+    margin-right: -11px;
+    margin-bottom: -5px;
+    padding-top: 13px;
+}
+
+.owl-carousel .owl-item img {
+    width: 74%;
+    text-align: center;
+    margin-left: 13px;
+}
+.toptimkiem .nuochoa-timkiem{
+    margin-right: -3px;
+    margin-left: -2px;
+}
+/* Gợi ý hôm nay */
+.goiy {
+    background: white;
+    margin-left: 334px;
+    margin-right: 339px;
+    margin-top: 30px;
+}
+.goiy h3{ color: #828282;}
+.giunhiet{
+    border: solid 1px#828282;
+    padding: 0;
+    margin: 5px;
+}
+.aogiunhiet img{
+    height: auto;
+}
+.aogiunhiet p{
+    margin-left: 5px;
+}
+.aogiunhiet{
+    padding: 0 8px;
+}
+.aogiunhiet .right
+{
+    color: #828282;
+    margin-right: 5px;
+}
+.price{
+    font-weight: bold;
+    color:#ED3029;
+    margin-bottom:-12%;
+}
+.xemthem-goiy a{
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    background: #e5e5e5;
+    color: black;
+    text-decoration: none;
+    padding: 10px 80px;
+}
+.xemthem-goiy{padding-left: 40%;
+    padding-top: 3%;
+    padding-bottom:8%;
+}
+/* Footer */
+footer{
+    padding-top: 5px;
+    border-top: 2px solid #EE4623;
+}
+footer p{
+    color: #828282;
+    font-weight: bold;
+}
+footer .img-fluid{
+    width: 25%;
+}
+#pay{
+    width: 72%;
+    padding-bottom: 5%;
+}
+.chamsockhach {
+    margin-left: 334px;
+    margin-right: 322px;
+}
+.chamsockhach a{
+    text-decoration: none;
+    color: #828282;
+    display: flex;
+    line-height: 2;
+}
+.fb-is-lid{
+    margin: 30px 0px;
+}
+.fb-is-lid i {
+    margin: 8px 0px;
+}
+.lienhe p{
+    font-size: 1rem;
+    font-weight: normal;
+    color: black;
+}
+#dangky1 {
+    width: 80%;
+}
+#dangky2{
+    margin-top: 105%;
+    width: 80%;
+    margin-left: -33px;
+}
+/* chinh sach */
+.chinhsach a{
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.chinhsach .row{
+    margin-left: 31px;
+    margin-right: 37px;
+    padding-top:15px ;
+    border-top: 1px solid #828282;
+    border-bottom: 1px solid #828282;
+    font-size: 0.8rem;
+}
+.chinhsach .main-header-top>ul{
+    margin-left:15% ;
+}
+.baohanh p{
+    text-align: center;
+    color: black;
+    font-weight: normal;
+    margin-top: -25px;
+}
+#trachnhiem {
+    margin-right: -90%;
+}
+.fb-is-lid i {
+    padding: 0 2px;
+}
+.vanchuyen{
+    width: 130%;
+}
