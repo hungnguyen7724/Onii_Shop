@@ -1,5 +1,5 @@
 body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 .top-header{
     background: #ED3029;
@@ -24,11 +24,11 @@ body{
 .main-header-top>ul>li{
     padding: 0 5px;
 }
-.main-header-top a, .cart a{
+.main-header-top a{
     text-decoration: none;
     color: white;
 }
-.main-header-top a:hover ,.cart a:hover{
+.main-header-top a:hover{
     color: black;
 }
 .right{
@@ -73,13 +73,20 @@ body{
     border-radius: 2px;
 }
 #banner2{margin-bottom: 7px;}
+
 .line{ border-bottom: 1px #828282 solid;}
 .cart {
     margin-top: 14px;
-    margin-left: -43px;
+    margin-left: -35px;
     font-size: 20px;
-    color: white;
+} 
+/* #icon-cart{
+    fill: white;
 }
+#icon-cart:hover{
+    fill: black;
+} */
+
 /* icon search */
 input.form-control {
     padding: 10px;
@@ -91,6 +98,7 @@ input.form-control {
     padding-right: 60px;
 }
 button#button-addon8 {
+    margin-right: 52px;
     padding: 6px 23px;
 }
 /* Content */
@@ -102,60 +110,50 @@ button#button-addon8 {
 .bg-danhmuc{ 
     margin-left: 334px;
     margin-right: 339px;
-    padding-bottom: 20%;
+    padding-bottom: 18%;
     margin-top: -22px;
     background: white;
 }
-.bg-danhmuc span {
-    font-size: 27px;
-    border: 2px #e5e5e5 solid;
-    padding: 0 11px 3px 11px;
-    border-radius: 50%;
-    font-weight: bold;
-    margin: 0 -10px;
-    background: white;
-}
+
 .bg-danhmuc h3{
   padding: 10px;
   color: #828282;
 }
 .bg-danhmuc .owl-theme .owl-nav {
-    margin: -358px -37px;
+    margin: -348px -37px;
+}
+.bg-danhmuc i{
+    font-size: 1.5rem;
+    border: grey 1px solid;
+    background: white;
+    border-radius: 50%;
 }
 .category-farames{
     border: 1px #f0f0f0 solid;
     margin-bottom: 10px;
     text-align: center;
 }
+.category-farames img.img-fluid {
+    padding-left: 20px;
+}
 .item a{
-    font-size: 0.875rem;
-    font-weight: bold;
+    font-size: 1.2rem;
     text-decoration: none;
     color: #000000;
     text-align: center;
     font-size: .8rem;
 }
-.owl-carousel .owl-item img {
-    width: 72%;
-    text-align: center;
-    margin-left: 28px;
+.item a:hover{
+    font-weight: bold;
 }
 .owl-carousel .owl-nav button.owl-next{
     font-size: 3rem;
-    margin-left: 96%;
-}
-.owl-carousel .owl-nav button.owl-prev{
-    font-size: 3rem;
-    margin-right:0;
+    margin-left: 94.5%;
 }
 .owl-theme .owl-nav{
     margin: -18% -55px;
     color: #828282;
 }
-.bg-danhmuc .owl-prev{
-    margin-top: -20%;
-}
-
 /* Flash sale */
 .flash-sale .owl-theme .owl-nav {
     margin: -262px -37px;
@@ -200,16 +198,17 @@ button#button-addon8 {
     margin: 11px 22px;
     margin-left: 1px;
 }
-.owl-carousel .owl-nav button.owl-prev { 
-    font-size: 3rem;
-    margin-right: 0;
-    margin-top: 10%;
-    text-align: justify;
+.owl-carousel .owl-nav button.owl-prev {
+        /* font-size: 3rem; */
+        margin-right: 0;
+        margin-top: 13.5%;
+        text-align: justify;
+        border-radius: 50%;
 }
 
 /* Xu Hướng Tìm Kiếm */
 #img-nuochoa {
-    margin-left: 5px;
+    margin-left: 7px;
     max-width: 123%;
     height: 89px;
 }
@@ -270,7 +269,7 @@ button#button-addon8 {
 }
 #ban-thang{
     background: #FCB813;
-    margin-right: -90px;
+    margin-right: -86px;
     padding-left: 14px;
     margin-left: 13px;
 }
@@ -299,7 +298,6 @@ button#button-addon8 {
     margin-left: 13px;
 }
 .toptimkiem .nuochoa-timkiem{
-    margin-right: -3px;
     margin-left: -2px;
 }
 /* Gợi ý hôm nay */
@@ -398,6 +396,12 @@ footer .img-fluid{
     text-decoration: none;
     font-size: 0.8rem;
 }
+.chamsockhach a:hover, .main-header-top a:hover{
+    color: #141111d4;
+    font-weight: bold;
+}
+
+
 .chinhsach .row{
     margin-left: 31px;
     margin-right: 37px;
@@ -424,3 +428,59 @@ footer .img-fluid{
 .vanchuyen{
     width: 130%;
 }
+/* all */
+i.fa.fa-angle-left {
+    padding: 0px 6px 0px 5px;
+}
+i.fa.fa-angle-right {
+    padding: 0px 4px 0px 6px;
+}
+.cover-timkiem i{
+    font-size: 1.5rem;
+    border: grey 1px solid;
+    background: white;
+    border-radius: 50%;   
+}
+.flash-sale i{
+    font-size: 1.5rem;
+    border: grey 1px solid;
+    background: white;
+    border-radius: 50%;   
+}
+i.fa.fa-angle-left:hover{
+    color: #828282;
+    background: white;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    color: blue;
+    text-decoration: none;
+}
+i.fa.fa-angle-left:hover {
+    color: blue;
+        background: white;
+}
+/* hover cac item */
+.category-farames:hover{
+    border: blue 1px solid;
+}
+.daban:hover, #oplung:hover {
+    color: black;
+    font-weight: bold;
+}
+.nuochoa:hover {
+    border: blue 2px solid;
+}
+.cover-xuhuong .right:hover, .cover-timkiem .right:hover,.goiy .xemthem:hover{
+    color: #EE4623;
+    font-weight: bold;
+}
+.giunhiet:hover{
+    border: 1px solid black;
+    font-weight: bold;
+}
+.xemthem-goiy>a:hover{
+    border: 1px solid black;
+    color: #ea1010;
+}
+
