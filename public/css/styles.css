@@ -116,9 +116,7 @@ button#button-addon8 {
   color: #828282;
   background: white;
 }
-.bg-danhmuc .owl-theme .owl-nav {
-    margin: -372px -35px;
-}
+
 .bg-danhmuc i{
     font-size: 1.5rem;
     border: grey 1px solid;
@@ -148,7 +146,6 @@ button#button-addon8 {
     margin-left: 95%;
 }
 .owl-theme .owl-nav{
-    margin: -18% -55px;
     color: #828282;
 }
 /* Flash sale */
@@ -156,7 +153,6 @@ button#button-addon8 {
     background: rgba(249, 165, 26, 0.37);
 }
 .flash-sale .owl-theme .owl-nav {
-    margin: -340px -38px;
     color: #828282;
 }
 .fsale img{
@@ -229,7 +225,6 @@ button#button-addon8 {
 }
 
 .timkiemhd .owl-theme .owl-nav {
-    margin: -200px -37px;
     color: #828282;
 }
 
