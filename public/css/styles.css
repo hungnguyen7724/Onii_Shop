@@ -36,7 +36,8 @@ body{
     text-align: right;
 }
 .left{
-    text-align: left;
+    float: left;
+        text-align: left;
 }
 .top-logo{
     margin-left: -16px;
@@ -142,9 +143,20 @@ button#button-addon8 {
     font-weight: bold;
 }
 .owl-carousel .owl-nav button.owl-next{
-    font-size: 3rem;
+    position: absolute;
+    right: 0;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    margin-right: 0;
+    text-align: justify;
+    border-radius: 50%;
+    left: 0;
+    position: absolute;
 }
 .owl-theme .owl-nav{
+    position: absolute;
+    top: 40%;
+    width: 100%;
     color: #828282;
 }
 /* Flash sale */
@@ -156,6 +168,7 @@ button#button-addon8 {
 }
 .fsale img{
     border: #ED3029 solid 2px;
+    width: 100%;
 }
 .flash-sale .owl-carousel .owl-item img {
     height: 180px;
@@ -171,9 +184,7 @@ button#button-addon8 {
 .flash-sale h3{
     margin-left: 10px;
 }
-.fsale img {
-    width: 100%;
-}
+
 .daban{
     border-radius: 10px;
     color: white;
@@ -181,12 +192,7 @@ button#button-addon8 {
     text-align: center;
     margin: 12px 23px;
 }
-.owl-carousel .owl-nav button.owl-prev {
-        /* font-size: 3rem; */
-        margin-right: 0;
-        text-align: justify;
-        border-radius: 50%;
-}
+
 /* Xu Hướng Tìm Kiếm */
 .nuochoa .img-fluid {
     width: 104px;
@@ -195,10 +201,7 @@ button#button-addon8 {
     max-width: 100%;
     height: 101px;
 }
-/* #search2, #search4, #search5{
-    max-width: 132%;
-    height: 88px;
-} */
+
 #img-quanao{
     padding-bottom: 1px;
 }
@@ -206,20 +209,24 @@ button#button-addon8 {
     margin-top: 10px;
     font-size: 13px;
 }
-
-.nuochoa{
-    border: #ED3029 2px solid;
+.sp-tainghe{
+    display: flex;
+    border: #ED3029 1px solid;
 }
+.nuochoa .img-fluid {
+    width: 125px;
+}
+
 /* Tìm kiếm hàng đầu */
 .toptimkiem .nuochoa-timkiem img{
     height: 68px;
     margin-left: -8px;
 }
-.timkiemhd .owl-carousel .owl-nav button.owl-prev {
-    font-size: 3rem;
+ .owl-carousel .owl-nav button.owl-prev {
     margin-right: 0;
-    margin-top: 3%;
     text-align: justify;
+    left: 0;
+    position: absolute;
 }
 
 .timkiemhd .owl-theme .owl-nav {
@@ -428,8 +435,8 @@ i.fa.fa-angle-left:hover {
     color: black;
     font-weight: bold;
 }
-.nuochoa:hover {
-    border: blue 2px solid;
+.sp-tainghe:hover {
+    border: blue 1px solid;
 }
 .cover-xuhuong .right:hover, .cover-timkiem .right:hover,.goiy .xemthem:hover{
     color: #EE4623;
