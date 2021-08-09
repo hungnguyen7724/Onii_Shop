@@ -199,12 +199,6 @@ button#button-addon8 {
 .nuochoa .img-fluid {
     width: 104px;
 }
-.xuhuong {
-    margin: 0 16%;
-}
-.cover-xuhuong{
-    margin-top: 19%;
-}
 #search1, #search3 {
     margin-left: 6px;
     max-width: 123%;
@@ -243,12 +237,7 @@ button#button-addon8 {
     margin: -200px -37px;
     color: #828282;
 }
-.cover-timkiem{
-    margin: 0 16%;
-    padding-bottom: 235px;
-    margin-top: 30px;
-    background: white
-}
+
 .toptimkiem p{
     padding-left: 29px;
     color: #828282;
@@ -296,7 +285,7 @@ button#button-addon8 {
     padding: 0;
     margin: 5px;
 }
-.xuhuong .container, .cover-timkiem .container, .goiy .container, .aogiunhiet .container {
+.xuhuong .container, .timkiem-content, .goiy .container, .aogiunhiet .container {
     background: white;
 }
 .aogiunhiet img{
