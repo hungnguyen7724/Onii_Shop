@@ -6,7 +6,7 @@ body{
     height: 40px;
 }
 .main-header{
-    margin-left: -18px;
+   
     padding-bottom:30px;
     background-image: url('../img/oni_web.png');
 }
@@ -71,6 +71,7 @@ body{
     width: 858px;
     height: 260px;
     border-radius: 2px;
+    object-fit: cover;
 }
 #banner2{margin-bottom: 7px;}
 
@@ -115,9 +116,7 @@ button#button-addon8 {
   color: #828282;
   background: white;
 }
-.bg-danhmuc .owl-theme .owl-nav {
-    margin: -372px -35px;
-}
+
 .bg-danhmuc i{
     font-size: 1.5rem;
     border: grey 1px solid;
@@ -144,10 +143,8 @@ button#button-addon8 {
 }
 .owl-carousel .owl-nav button.owl-next{
     font-size: 3rem;
-    margin-left: 95%;
 }
 .owl-theme .owl-nav{
-    margin: -18% -55px;
     color: #828282;
 }
 /* Flash sale */
@@ -155,7 +152,6 @@ button#button-addon8 {
     background: rgba(249, 165, 26, 0.37);
 }
 .flash-sale .owl-theme .owl-nav {
-    margin: -340px -38px;
     color: #828282;
 }
 .fsale img{
@@ -173,8 +169,6 @@ button#button-addon8 {
     font-weight: bold;
 }
 .flash-sale h3{
-    margin-top: -2%;
-    margin-bottom: 2%;
     margin-left: 10px;
 }
 .fsale img {
@@ -190,7 +184,6 @@ button#button-addon8 {
 .owl-carousel .owl-nav button.owl-prev {
         /* font-size: 3rem; */
         margin-right: 0;
-        margin-top: 13.5%;
         text-align: justify;
         border-radius: 50%;
 }
@@ -198,29 +191,20 @@ button#button-addon8 {
 .nuochoa .img-fluid {
     width: 104px;
 }
-.xuhuong {
-    margin: 0 16%;
+#search1 {
+    max-width: 100%;
+    height: 101px;
 }
-.cover-xuhuong{
-    margin-top: 19%;
-}
-#search1, #search3 {
-    margin-left: 6px;
-    max-width: 123%;
-    height: 88px;
-}
-#search2, #search4, #search5{
+/* #search2, #search4, #search5{
     max-width: 132%;
     height: 88px;
-}
+} */
 #img-quanao{
     padding-bottom: 1px;
 }
 .tainghe p {
     margin-top: 10px;
-    margin-left: -18%;
     font-size: 13px;
-    color: #828282;
 }
 
 .nuochoa{
@@ -239,15 +223,9 @@ button#button-addon8 {
 }
 
 .timkiemhd .owl-theme .owl-nav {
-    margin: -200px -37px;
     color: #828282;
 }
-.cover-timkiem{
-    margin: 0 16%;
-    padding-bottom: 215px;
-    margin-top: 30px;
-    background: white
-}
+
 .toptimkiem p{
     padding-left: 29px;
     color: #828282;
@@ -286,16 +264,14 @@ button#button-addon8 {
     margin-left: -2px;
 }
 /* Gợi ý hôm nay */
-.goiy {
-    margin: 0 16%;
-}
+
 .goiy h3{ color: #828282;}
 .giunhiet{
     border: solid 1px#828282;
     padding: 0;
     margin: 5px;
 }
-.xuhuong .container, .cover-timkiem .container, .goiy .container, .aogiunhiet .container {
+.xuhuong .container, .timkiem-content, .goiy .container, .aogiunhiet .container {
     background: white;
 }
 .aogiunhiet img{
@@ -315,7 +291,7 @@ button#button-addon8 {
 .price{
     font-weight: bold;
     color:#ED3029;
-    margin-bottom:-12%;
+    margin-bottom:24px;
 }
 .xemthem-goiy a{
     border: 1px solid #e5e5e5;
@@ -325,12 +301,14 @@ button#button-addon8 {
     text-decoration: none;
     padding: 10px 80px;
 }
-.xemthem-goiy{padding-left: 40%;
-    padding-top: 3%;
-    padding-bottom:8%;
+.xemthem-goiy{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
 }
 /* Footer */
 footer{
+    padding-bottom: 1px;
     background: #DFDFDF;
     padding-top: 5px;
     border-top: 2px solid #EE4623;
@@ -342,11 +320,6 @@ footer p{
 footer .img-fluid{
     width: 25%;
 }
-#pay{
-    width: 72%;
-    padding-bottom: 5%;
-}
-
 .chamsockhach a{
     text-decoration: none;
     color: #828282;
@@ -368,7 +341,7 @@ footer .img-fluid{
     width: 80%;
 }
 #dangky2{
-    margin-top: 98%;
+    margin-top: 230px;
     width: 80%;
     margin-left: -33px;
 }
@@ -401,7 +374,7 @@ footer .img-fluid{
     margin-top: -25px;
 }
 #trachnhiem {
-    margin-right: -90%;
+    margin-right: -152px;
 }
 .fb-is-lid i {
     padding: 0 2px;
@@ -410,7 +383,7 @@ footer .img-fluid{
     width: 122%;
 }
 #dvship{
-    padding-top: 48%;
+    padding-top: 100;
 }
 /* all */
 i.fa.fa-angle-left {
@@ -433,7 +406,6 @@ i.fa.fa-angle-right {
 }
 .bg-flash{
     background: rgba(249, 165, 26, 0.37);
-    margin-top: 30%;
 }
 i.fa.fa-angle-left:hover{
     color: #828282;
@@ -448,7 +420,6 @@ i.fa.fa-angle-left:hover {
     color: blue;
         background: white;
 }
-
 /* hover cac item */
 .category-farames:hover{
     border: blue 1px solid;
@@ -472,3 +443,99 @@ i.fa.fa-angle-left:hover {
     border: 1px solid black;
     color: #ea1010;
 }
+/* Reponsive */
+/* @media screen and (max-width: 1024px) {
+    #banner1 {
+        width: 129%;
+        margin-left: -60px;
+        padding-right: 25%;
+    }
+    #banner2, #banner3 {
+        margin-right: -30px;
+        object-fit: cover;
+    }
+    #dangky2{margin-top: 168%;}
+    .xuhuong {
+        margin: 0 16%;}
+    .bg-flash {
+        margin-top: 58%;
+    }
+    .bg-flash .owl-carousel .owl-nav button.owl-next {
+        font-size: 3rem;
+        margin-left: 20px;
+    }
+    .cover-timkiem .cover-timkiem .owl-carousel .owl-nav button.owl-next {margin-left: 88%;}
+    .cover-timkiem{
+        padding-bottom: 240px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .left, .main, .right {
+        width: 100%; 
+      }
+      input.form-control {
+          margin-left: 60px;
+      }
+      #dangky2{
+          margin-top: 248%;
+      }
+      .xemthem-goiy a{
+          margin-left: -20px;
+          padding: 0;
+      }
+      #ban-thang{
+          background: #FCB813;
+          padding-left: 14px;
+          margin-right: -100.5px;
+      }
+      .main-header-top.center {
+          margin: 0 -85px;
+          text-align: left;
+      }
+      #banner1{max-width: 137%;}
+      .flash-sale .owl-theme .owl-nav{ margin: 0;}
+      .price{padding: 0 15px;}
+      .giunhiet{ margin: 14px; 
+    }
+}
+@media screen and (max-width: 680px) {
+    .flash-sale {
+        padding-top: 130%;
+        color: #EE4623;
+        font-weight: bold;
+    }
+    #dangky2 {
+        margin-top: 495%;
+        width: 80%;
+    }.cover-timkiem{padding-bottom: 230px;}
+    .bg-flash .owl-carousel .owl-nav button.owl-next {
+        font-size: 3rem;
+        margin-left: 20px;
+    }
+    .bg-danhmuc i.fa.fa-angle-right {
+        display: flex;
+        margin-left: -15px;}
+}
+@media screen and (max-width: 480px) {
+    .cover-timkiem{margin: 0 16%;
+        padding-bottom: 235px;
+        margin-top: 30px;
+        background: white;
+    }
+    #dangky2{
+        padding-top: 180%;
+    }
+    .giunhiet{
+        margin: 0;
+    }
+    #ban-thang{margin-right: -127px;}
+}
+@media screen and (max-width: 320px) {
+    #dangky2 {
+        margin-top: 45%;
+    }
+    #banner2, #banner3 {
+         margin-right: 0;
+    }    
+} */
