@@ -6,7 +6,7 @@ body{
     height: 40px;
 }
 .main-header{
-    margin-left: -18px;
+   
     padding-bottom:30px;
     background-image: url('../img/oni_web.png');
 }
@@ -199,23 +199,20 @@ button#button-addon8 {
 .nuochoa .img-fluid {
     width: 104px;
 }
-#search1, #search3 {
-    margin-left: 6px;
-    max-width: 123%;
-    height: 88px;
+#search1 {
+    max-width: 100%;
+    height: 101px;
 }
-#search2, #search4, #search5{
+/* #search2, #search4, #search5{
     max-width: 132%;
     height: 88px;
-}
+} */
 #img-quanao{
     padding-bottom: 1px;
 }
 .tainghe p {
     margin-top: 10px;
-    margin-left: -18%;
     font-size: 13px;
-    color: #828282;
 }
 
 .nuochoa{
@@ -276,9 +273,7 @@ button#button-addon8 {
     margin-left: -2px;
 }
 /* Gợi ý hôm nay */
-.goiy {
-    margin: 0 16%;
-}
+
 .goiy h3{ color: #828282;}
 .giunhiet{
     border: solid 1px#828282;
