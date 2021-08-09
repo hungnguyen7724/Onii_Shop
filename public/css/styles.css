@@ -174,8 +174,6 @@ button#button-addon8 {
     font-weight: bold;
 }
 .flash-sale h3{
-    margin-top: -2%;
-    margin-bottom: 2%;
     margin-left: 10px;
 }
 .fsale img {
@@ -300,7 +298,7 @@ button#button-addon8 {
 .price{
     font-weight: bold;
     color:#ED3029;
-    margin-bottom:-12%;
+    margin-bottom:24px;
 }
 .xemthem-goiy a{
     border: 1px solid #e5e5e5;
@@ -310,9 +308,10 @@ button#button-addon8 {
     text-decoration: none;
     padding: 10px 80px;
 }
-.xemthem-goiy{padding-left: 40%;
-    padding-top: 3%;
-    padding-bottom:8%;
+.xemthem-goiy{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
 }
 /* Footer */
 footer{
@@ -328,11 +327,6 @@ footer p{
 footer .img-fluid{
     width: 25%;
 }
-#pay{
-    width: 72%;
-    padding-bottom: 5%;
-}
-
 .chamsockhach a{
     text-decoration: none;
     color: #828282;
@@ -354,7 +348,7 @@ footer .img-fluid{
     width: 80%;
 }
 #dangky2{
-    margin-top: 98%;
+    margin-top: 230px;
     width: 80%;
     margin-left: -33px;
 }
@@ -387,7 +381,7 @@ footer .img-fluid{
     margin-top: -25px;
 }
 #trachnhiem {
-    margin-right: -90%;
+    margin-right: -152px;
 }
 .fb-is-lid i {
     padding: 0 2px;
@@ -396,7 +390,7 @@ footer .img-fluid{
     width: 122%;
 }
 #dvship{
-    padding-top: 48%;
+    padding-top: 100;
 }
 /* all */
 i.fa.fa-angle-left {
@@ -457,7 +451,7 @@ i.fa.fa-angle-left:hover {
     color: #ea1010;
 }
 /* Reponsive */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     #banner1 {
         width: 129%;
         margin-left: -60px;
@@ -551,4 +545,4 @@ i.fa.fa-angle-left:hover {
     #banner2, #banner3 {
          margin-right: 0;
     }    
-}
+} */
