@@ -143,7 +143,6 @@ button#button-addon8 {
 }
 .owl-carousel .owl-nav button.owl-next{
     font-size: 3rem;
-    margin-left: 95%;
 }
 .owl-theme .owl-nav{
     color: #828282;
@@ -185,7 +184,6 @@ button#button-addon8 {
 .owl-carousel .owl-nav button.owl-prev {
         /* font-size: 3rem; */
         margin-right: 0;
-        margin-top: 13.5%;
         text-align: justify;
         border-radius: 50%;
 }
