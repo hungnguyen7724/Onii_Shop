@@ -28,9 +28,6 @@ body{
     text-decoration: none;
     color: white;
 }
-.main-header-top a:hover{
-    color: black;
-}
 .right{
     float: right;
     text-align: right;
@@ -119,13 +116,12 @@ button#button-addon8 {
 }
 
 .bg-danhmuc i{
-    font-size: 1.5rem;
     border: grey 1px solid;
     background: white;
     border-radius: 50%;
 }
 .category-farames{
-    border: 1px #f0f0f0 solid;
+    border: 1px #ececec solid;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -138,9 +134,6 @@ button#button-addon8 {
     color: #000000;
     text-align: center;
     font-size: .8rem;
-}
-.item a:hover{
-    font-weight: bold;
 }
 .owl-carousel .owl-nav button.owl-next{
     position: absolute;
@@ -178,6 +171,7 @@ button#button-addon8 {
     margin-left: 13px;
 }
 .flash-sale{
+    padding:20px 0;
     color: #EE4623;
     font-weight: bold;
 }
@@ -194,6 +188,7 @@ button#button-addon8 {
 }
 
 /* Xu Hướng Tìm Kiếm */
+
 .nuochoa .img-fluid {
     width: 104px;
 }
@@ -206,18 +201,25 @@ button#button-addon8 {
     padding-bottom: 1px;
 }
 .tainghe p {
-    margin-top: 10px;
-    font-size: 13px;
+    margin-top: 15px;
+    font-size: 15px;
 }
 .sp-tainghe{
     display: flex;
-    border: #ED3029 1px solid;
+    border: grey 1px solid;
+}
+.sp-tainghe a{
+    text-decoration: none;
+    color: black;
 }
 .nuochoa .img-fluid {
     width: 125px;
 }
 
 /* Tìm kiếm hàng đầu */
+.cover-timkiem{
+    padding-top: 20px;
+}
 .toptimkiem .nuochoa-timkiem img{
     height: 68px;
     margin-left: -8px;
@@ -238,9 +240,9 @@ button#button-addon8 {
     color: #828282;
 }
 #ban-thang{
-   background: #FCB813;
-    margin-right: -90.5px;
-    padding-left: 14px;
+    text-align: center;
+    background: #FCB813;
+    margin-right: -92px;
     margin-left: 13px;
 }
 #oplung{
@@ -271,15 +273,13 @@ button#button-addon8 {
     margin-left: -2px;
 }
 /* Gợi ý hôm nay */
-
+.goiy{
+    padding-top: 20px;}
 .goiy h3{ color: #828282;}
 .giunhiet{
-    border: solid 1px#828282;
+    border: solid 2px#828282;
     padding: 0;
-    margin: 5px;
-}
-.xuhuong .container, .timkiem-content, .goiy .container, .aogiunhiet .container {
-    background: white;
+    margin: 10px;
 }
 .aogiunhiet img{
     width: 208px;
@@ -295,7 +295,12 @@ button#button-addon8 {
 .aogiunhiet .container{
     padding: 0 20px;
 }
+.giunhiet-sp a{
+    text-decoration: none;
+    color: black;
+}
 .price{
+    position: absolute;
     font-weight: bold;
     color:#ED3029;
     margin-bottom:24px;
@@ -316,7 +321,7 @@ button#button-addon8 {
 /* Footer */
 footer{
     padding-bottom: 1px;
-    background: #DFDFDF;
+    background: #f5f5f5;
     padding-top: 5px;
     border-top: 2px solid #EE4623;
 }
@@ -337,6 +342,7 @@ footer .img-fluid{
     margin: 30px 0px;
 }
 .fb-is-lid i {
+    font-size: 20px;
     margin: 8px 0px;
 }
 .lienhe p{
@@ -344,14 +350,19 @@ footer .img-fluid{
     font-weight: normal;
     color: black;
 }
-#dangky1 {
+.dangky img{
+    margin: 5px 10px;
+    width: 180px;
+    height: auto;
+}
+/* #dangky1 {
     width: 80%;
 }
 #dangky2{
-    margin-top: 230px;
+    margin-top: 245px;
     width: 80%;
     margin-left: -33px;
-}
+} */
 /* chinh sach */
 .chinhsach a{
     color: black;
@@ -359,9 +370,8 @@ footer .img-fluid{
     text-decoration: none;
     font-size: 0.8rem;
 }
-.chamsockhach a:hover, .main-header-top a:hover{
-    color: #141111d4;
-    font-weight: bold;
+.chamsockhach a:hover{
+    color: #ee4d2d;
 }
 .chinhsach .row{
     margin-left: 31px;
@@ -383,9 +393,6 @@ footer .img-fluid{
 #trachnhiem {
     margin-right: -152px;
 }
-.fb-is-lid i {
-    padding: 0 2px;
-}
 .vanchuyen{
     width: 122%;
 }
@@ -393,6 +400,13 @@ footer .img-fluid{
     padding-top: 100;
 }
 /* all */
+.xem-sp a{
+    text-decoration: none;
+    color: #ee4d2d;
+}
+.timkiem-content,.cover-xuhuong, .goiyhn{
+    background: white;
+} 
 i.fa.fa-angle-left {
     padding: 0px 6px 0px 5px;
 }
@@ -400,55 +414,36 @@ i.fa.fa-angle-right {
     padding: 0px 4px 0px 6px;
 }
 .cover-timkiem i{
-    font-size: 1.5rem;
     border: grey 1px solid;
     background: white;
     border-radius: 50%;   
 }
 .flash-sale i{
-    font-size: 1.5rem;
     border: grey 1px solid;
-    background: white;
+    background:white;
     border-radius: 50%;
 }
 .bg-flash{
     background: rgba(249, 165, 26, 0.37);
 }
-i.fa.fa-angle-left:hover{
-    color: #828282;
-    background: white;
-}
+
 .owl-theme .owl-nav [class*=owl-]:hover {
+    font-size: 1.7rem;
+    border-radius: 50%;
+    color: grey;
     background: none;
-    color: blue;
-    text-decoration: none;
-}
-i.fa.fa-angle-left:hover {
-    color: blue;
-        background: white;
+    margin-top: -2px;
 }
 /* hover cac item */
 .category-farames:hover{
-    border: blue 1px solid;
-}
-.daban:hover, #oplung:hover {
-    color: black;
-    font-weight: bold;
-}
-.sp-tainghe:hover {
-    border: blue 1px solid;
-}
-.cover-xuhuong .right:hover, .cover-timkiem .right:hover,.goiy .xemthem:hover{
-    color: #EE4623;
-    font-weight: bold;
+    border: #828282 1px solid;
 }
 .giunhiet:hover{
-    border: 1px solid black;
-    font-weight: bold;
+    border: 2px solid #ee4d2d;
 }
 .xemthem-goiy>a:hover{
     border: 1px solid black;
-    color: #ea1010;
+    background: white;
 }
 /* Reponsive */
 /* @media screen and (max-width: 1024px) {
