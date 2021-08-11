@@ -73,7 +73,7 @@ body{
 }
 #banner2{margin-bottom: 7px;}
 
-.line{ border-top: 1px #828282 solid;}
+.line{ border-top: 1px #000000cc solid;}
 .cart {
     margin-top: 14px;
     margin-left: 6px;
@@ -153,16 +153,17 @@ button#button-addon8 {
     color: #828282;
 }
 /* Flash sale */
-
+.fsale{
+    margin: 0 14px 0 -10px;
+}
 .flash-sale .owl-theme .owl-nav {
     color: #828282;
 }
 .fsale img{
-    border: #ED3029 solid 2px;
     width: 100%;
 }
 .flash-sale .owl-carousel .owl-item img {
-    width: 90%;
+    width: 100%;
     height: 180px;
     margin-left: 13px;
 }
@@ -172,6 +173,7 @@ button#button-addon8 {
     font-weight: bold;
 }
 .flash-sale h3{
+    padding: 10px 0;
     margin-left: 10px;
 }
 
@@ -180,8 +182,9 @@ button#button-addon8 {
     color: white;
     background: #EE4623;
     text-align: center;
-    margin: 12px 23px;
+    margin: 11px 0 10px 35px;
 }
+
 
 /* Xu Hướng Tìm Kiếm */
 
@@ -203,7 +206,7 @@ button#button-addon8 {
 }
 .sp-tainghe{
     display: flex;
-    /* border: grey 1px solid; */
+    border: grey 1px solid;
 }
 
 .sp-tainghe a{
@@ -244,6 +247,7 @@ button#button-addon8 {
     margin-left: 13px;
 }
 #oplung{
+    text-align: left;
     padding: 10px 13px;
     margin-right: -50px;
     color: #828282;
@@ -273,11 +277,15 @@ button#button-addon8 {
 /* Gợi ý hôm nay */
 .goiy{
     padding-top: 20px;}
+.goiyhn{
+    background: #fff;
+}
 .goiy h3{ color: #828282;}
 .giunhiet{
+    background: #fff;
     border: solid 2px#828282;
     padding: 0;
-    margin: 10px;
+    margin: 8px;
 }
 .aogiunhiet img{
     width: 208px;
@@ -301,12 +309,16 @@ button#button-addon8 {
     margin-bottom:24px;
 }
 .xemthem-goiy a{
-    border: 1px solid #e5e5e5;
+    border: 1px solid #00000017;
     text-align: center;
-    background: #e5e5e5;
-    color: black;
+    background: white;
+    color: #555555;
     text-decoration: none;
     padding: 10px 80px;
+}
+.xemthem-goiy>a:hover{
+    border: 1px solid #00000017;
+    background: #E5E5E5;
 }
 .xemthem-goiy{
     text-align: center;
@@ -403,7 +415,7 @@ footer .img-fluid{
     text-decoration: none;
     color: #ee4d2d;
 }
-.timkiem-content,.cover-xuhuong, .goiyhn{
+.timkiem-content,.cover-xuhuong{
     background: white;
 } 
 i.fa.fa-angle-left {
@@ -423,27 +435,40 @@ i.fa.fa-angle-right {
     border-radius: 50%;
 }
 .bg-flash{
-    background: #f9a51a5e;
+    background: #ffffff;
 }
 
-.owl-theme .owl-nav [class*=owl-]:hover {
-    font-size: 1rem;
+/* .owl-theme .owl-nav [class*=owl-]:hover {
+    font-size: 1.5rem;
     border-radius: 50%;
     color: grey;
     background: none;
-    margin-top:0 ;
-}
+    margin-top: -2px;
+} */
 /* hover cac item */
+.owl-carousel .owl-nav button.owl-next:hover{
+    font-size: 1.1rem;
+    border-radius: 50%;
+    background: none;
+    color: grey;
+    /* display: block;
+    width: 0px;
+    height: auto; */
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    font-size: 1.1rem;
+    border-radius: 50%;
+    background: none;
+    color: grey;
+    
+}
 .category-farames:hover{
     border: #828282 1px solid;
 }
 .giunhiet:hover{
     border: 2px solid #ee4d2d;
 }
-.xemthem-goiy>a:hover{
-    border: 1px solid black;
-    background: white;
-}
+
 /* Reponsive */
 /* @media screen and (max-width: 1024px) {
     #banner1 {
