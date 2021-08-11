@@ -190,13 +190,14 @@ button#button-addon8 {
 }
 #search1 {
     max-width: 100%;
-    height: 101px;
+    height: auto;
     margin-left: 16px;
 }
 #img-quanao{
     padding-bottom: 1px;
 }
 .tainghe p {
+    margin-left: -3px;
     margin-top: 30px;
     font-size: 14px;
 }
@@ -226,6 +227,7 @@ button#button-addon8 {
     left: 0;
     position: absolute;
 }
+
 .timkiemhd .owl-theme .owl-nav {
     color: #828282;
 }
@@ -237,8 +239,8 @@ button#button-addon8 {
 #ban-thang{
     text-align: center;
     background: #FCB813;
-    margin-right: -92px;
-    margin-left: 13px;
+    margin-right: -86.5px;
+    margin-left: 17px;
 }
 #oplung{
     text-align: left;
@@ -248,6 +250,7 @@ button#button-addon8 {
 }
 #iphone-timkiem{
     width: 100%;
+    margin-left: 17px;
     height: 135px;
 }
 .toptimkiem {
@@ -259,8 +262,9 @@ button#button-addon8 {
     margin-bottom: -5px;
     padding-top: 13px;
 }
+
 .owl-carousel .owl-item img {
-    width: 74%;
+    width: 69%;
     text-align: center;
     margin-left: 13px;
 }
@@ -405,7 +409,7 @@ footer .img-fluid{
 }
 /* all */
 .col.right.xem-sp{
-    padding: 10px 20px;
+    padding: 10px 40px;
 }
 .xem-sp a{
     padding: 10px 0px;
@@ -465,6 +469,7 @@ i.fa.fa-angle-right {
 .giunhiet:hover{
     border: 2px solid #ee4d2d;
 }
+
 /* Reponsive */
 /* @media screen and (max-width: 1024px) {
     #banner1 {
