@@ -137,18 +137,19 @@ button#button-addon8 {
 }
 .owl-carousel .owl-nav button.owl-next{
     position: absolute;
-    right: 0;
+    right: -14px;
+
 }
 .owl-carousel .owl-nav button.owl-prev {
     margin-right: 0;
     text-align: justify;
     border-radius: 50%;
-    left: 0;
+    left: -14px;
     position: absolute;
 }
 .owl-theme .owl-nav{
     position: absolute;
-    top: 40%;
+    top: 43%;
     width: 100%;
     color: #828282;
 }
@@ -221,12 +222,6 @@ button#button-addon8 {
     height: 68px;
     margin-left: -8px;
 }
- .owl-carousel .owl-nav button.owl-prev {
-    margin-right: 0;
-    text-align: justify;
-    left: 0;
-    position: absolute;
-}
 
 .timkiemhd .owl-theme .owl-nav {
     color: #828282;
@@ -264,9 +259,8 @@ button#button-addon8 {
 }
 
 .owl-carousel .owl-item img {
-    width: 69%;
+    width: 88.5%;
     text-align: center;
-    margin-left: 13px;
 }
 .toptimkiem .nuochoa-timkiem{
     margin-left: -2px;
@@ -420,10 +414,10 @@ footer .img-fluid{
     background: white;
 } 
 i.fa.fa-angle-left {
-    padding: 1px 5px;
+    padding: 4px 8px;
 }
 i.fa.fa-angle-right {
-    padding: 1px 4px 1px 6px;
+    padding:4px 7px 4px 9px;
 }
 .cover-timkiem i{
     border: grey 1px solid;
@@ -439,30 +433,14 @@ i.fa.fa-angle-right {
     background: #ffffff;
 }
 
-/* .owl-theme .owl-nav [class*=owl-]:hover {
-    font-size: 1.5rem;
-    border-radius: 50%;
-    color: grey;
+.owl-theme .owl-nav [class*=owl-]:hover {
+    color: #ee4d2d;
     background: none;
-    margin-top: -2px;
-} */
+}
+.bg-danhmuc i:hover, .flash-sale i:hover,.cover-timkiem i:hover{
+    border: 1px solid #ee4d2d;
+}
 /* hover cac item */
-.owl-carousel .owl-nav button.owl-next:hover{
-    font-size: 1.1rem;
-    border-radius: 50%;
-    background: none;
-    color: grey;
-    /* display: block;
-    width: 0px;
-    height: auto; */
-}
-.owl-carousel .owl-nav button.owl-prev:hover{
-    font-size: 1.1rem;
-    border-radius: 50%;
-    background: none;
-    color: grey;
-    
-}
 .category-farames:hover{
     border: #828282 1px solid;
 }
