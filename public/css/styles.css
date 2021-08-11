@@ -73,7 +73,7 @@ body{
 }
 #banner2{margin-bottom: 7px;}
 
-#line{ border-top: 1px #828282 solid;}
+.line{ border-top: 1px #828282 solid;}
 .cart {
     margin-top: 14px;
     margin-left: 6px;
@@ -153,9 +153,7 @@ button#button-addon8 {
     color: #828282;
 }
 /* Flash sale */
-.flash-sale .owl-stage-outer {
-    background: rgba(249, 165, 26, 0.37);
-}
+
 .flash-sale .owl-theme .owl-nav {
     color: #828282;
 }
@@ -164,10 +162,8 @@ button#button-addon8 {
     width: 100%;
 }
 .flash-sale .owl-carousel .owl-item img {
-    height: 180px;
-}
-.flash-sale .owl-carousel .owl-item img {
     width: 90%;
+    height: 180px;
     margin-left: 13px;
 }
 .flash-sale{
@@ -195,6 +191,7 @@ button#button-addon8 {
 #search1 {
     max-width: 100%;
     height: 101px;
+    margin-left: 10px;
 }
 
 #img-quanao{
@@ -206,8 +203,9 @@ button#button-addon8 {
 }
 .sp-tainghe{
     display: flex;
-    border: grey 1px solid;
+    /* border: grey 1px solid; */
 }
+
 .sp-tainghe a{
     text-decoration: none;
     color: black;
@@ -291,9 +289,6 @@ button#button-addon8 {
 .aogiunhiet .right{
     color: #828282;
     margin-right: 5px;
-}
-.aogiunhiet .container{
-    padding: 0 20px;
 }
 .giunhiet-sp a{
     text-decoration: none;
@@ -400,7 +395,11 @@ footer .img-fluid{
     padding-top: 100;
 }
 /* all */
+.col.right.xem-sp{
+    padding: 10px 20px;
+}
 .xem-sp a{
+    padding: 10px 0px;
     text-decoration: none;
     color: #ee4d2d;
 }
@@ -408,10 +407,10 @@ footer .img-fluid{
     background: white;
 } 
 i.fa.fa-angle-left {
-    padding: 0px 6px 0px 5px;
+    padding: 1px 5px;
 }
 i.fa.fa-angle-right {
-    padding: 0px 4px 0px 6px;
+    padding: 1px 4px 1px 6px;
 }
 .cover-timkiem i{
     border: grey 1px solid;
@@ -424,15 +423,15 @@ i.fa.fa-angle-right {
     border-radius: 50%;
 }
 .bg-flash{
-    background: rgba(249, 165, 26, 0.37);
+    background: #f9a51a5e;
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover {
-    font-size: 1.7rem;
+    font-size: 1rem;
     border-radius: 50%;
     color: grey;
     background: none;
-    margin-top: -2px;
+    margin-top:0 ;
 }
 /* hover cac item */
 .category-farames:hover{
