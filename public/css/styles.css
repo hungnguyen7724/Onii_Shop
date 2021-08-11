@@ -184,31 +184,26 @@ button#button-addon8 {
     text-align: center;
     margin: 11px 0 10px 35px;
 }
-
-
 /* Xu Hướng Tìm Kiếm */
-
 .nuochoa .img-fluid {
     width: 104px;
 }
 #search1 {
     max-width: 100%;
     height: 101px;
-    margin-left: 10px;
+    margin-left: 16px;
 }
-
 #img-quanao{
     padding-bottom: 1px;
 }
 .tainghe p {
-    margin-top: 15px;
-    font-size: 15px;
+    margin-top: 30px;
+    font-size: 14px;
 }
 .sp-tainghe{
     display: flex;
     border: grey 1px solid;
 }
-
 .sp-tainghe a{
     text-decoration: none;
     color: black;
@@ -231,7 +226,6 @@ button#button-addon8 {
     left: 0;
     position: absolute;
 }
-
 .timkiemhd .owl-theme .owl-nav {
     color: #828282;
 }
@@ -265,7 +259,6 @@ button#button-addon8 {
     margin-bottom: -5px;
     padding-top: 13px;
 }
-
 .owl-carousel .owl-item img {
     width: 74%;
     text-align: center;
@@ -338,6 +331,10 @@ footer p{
 }
 footer .img-fluid{
     width: 25%;
+}
+.chamsockhach {
+    margin-left: 20px;
+    padding-top: 40px;
 }
 .chamsockhach a{
     text-decoration: none;
