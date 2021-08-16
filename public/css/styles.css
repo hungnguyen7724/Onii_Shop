@@ -44,7 +44,9 @@ body{
     background: tomato;
     border: white;
 }
-.banner.p-4 {
+.banner {
+    padding: 20px 0;
+    display: flex;
     background: #ffffff;
     margin-left: 60px;
 }
@@ -114,7 +116,8 @@ button#button-addon8 {
   color: #828282;
   background: white;
 }
-
+.bg-danhmuc {
+    padding-top: 20px;}
 .bg-danhmuc i{
     border: grey 1px solid;
     background: white;
@@ -186,32 +189,37 @@ button#button-addon8 {
     margin: 11px 0 10px 35px;
 }
 /* Xu Hướng Tìm Kiếm */
-.nuochoa .img-fluid {
-    width: 104px;
+.sp-trend, .spxuhuong{
+    display: flex;
 }
-#search1 {
-    max-width: 100%;
-    height: auto;
-    margin-left: 16px;
+.sp-trend{
+    border-right: 1px solid rgba(0,0,0,.05);
+    padding-right: .625rem;
+    background: white;
 }
-#img-quanao{
-    padding-bottom: 1px;
+.spxuhuong a{
+    text-decoration: none;
+    color: #222;
 }
-.tainghe p {
-    margin-left: -3px;
-    margin-top: 30px;
+.trend{
+    padding:1.25rem .625rem 0 0.25rem;
+}
+
+.sp-trend1{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #222;
+    font-weight: 500;
+    text-transform: capitalize;
     font-size: 14px;
 }
-.sp-tainghe{
-    display: flex;
-    border: grey 1px solid;
-}
-.sp-tainghe a{
-    text-decoration: none;
-    color: black;
-}
-.nuochoa .img-fluid {
-    width: 125px;
+.sp-trend2{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: .3125rem;
+    color: #757575;
+    font-size: .8125rem;
+
 }
 
 /* Tìm kiếm hàng đầu */
@@ -222,46 +230,32 @@ button#button-addon8 {
     height: 68px;
     margin-left: -8px;
 }
-
-.timkiemhd .owl-theme .owl-nav {
-    color: #828282;
-}
-
-.toptimkiem p{
-    padding-left: 29px;
-    color: #828282;
+.timkiemhd .owl-stage-outer{
+    border-top: 1px solid #e5e5e5;
+    background: white;
 }
 #ban-thang{
+    line-height: 1.5625rem;
+    background-color: rgba(0,0,0,.26);
+    color: #fff;
     text-align: center;
-    background: #FCB813;
-    margin-right: -86.5px;
-    margin-left: 17px;
+    margin: 5px 10px;
 }
 #oplung{
     text-align: left;
-    padding: 10px 13px;
-    margin-right: -50px;
-    color: #828282;
+    padding: 10px 18px;
+    color: #555;
+    font-size: 1.125rem;
+    text-align: left;
 }
-#iphone-timkiem{
-    width: 100%;
-    margin-left: 17px;
-    height: 135px;
+.iphone-timkiem {
+    background: white;
 }
 .toptimkiem {
-    border: orange 2px solid;
     display: flex;
     background: white;
-    margin-left: -4px;
-    margin-right: -11px;
-    margin-bottom: -5px;
-    padding-top: 13px;
 }
 
-.owl-carousel .owl-item img {
-    width: 88.5%;
-    text-align: center;
-}
 .toptimkiem .nuochoa-timkiem{
     margin-left: -2px;
 }
@@ -271,10 +265,16 @@ button#button-addon8 {
 .goiyhn{
     background: #fff;
 }
+#bd-goiy{
+    width: 230px;
+    color: #ee4d2d;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: #ee4d2d 4px solid;
+}
 .goiy h3{ color: #828282;}
 .giunhiet{
     background: #fff;
-    border: solid 2px#828282;
     padding: 0;
     margin: 8px;
 }
@@ -303,13 +303,12 @@ button#button-addon8 {
     width: 50px;
     text-align: center;
     float: right;
-    margin-top: -30px;
-    margin-right: 18px;
+    margin-top: -25px;
+    margin-right: 8px;
     border-radius: 2px;
     background: rgba(0,0,0,.3);
     font-size: .75rem;
     backface-visibility: hidden;
-
 }
 .giamgia{
     
@@ -380,7 +379,7 @@ footer{
 }
 footer p{
     color: #828282;
-    font-weight: bold;
+    font-weight: 700;
 }
 footer .img-fluid{
     width: 25%;
@@ -391,7 +390,7 @@ footer .img-fluid{
 }
 .chamsockhach a{
     text-decoration: none;
-    color: #828282;
+    color: rgba(0,0,0,.54);
     display: flex;
     line-height: 2;
 }
@@ -465,7 +464,8 @@ footer .img-fluid{
     text-decoration: none;
     color: #ee4d2d;
 }
-.timkiem-content,.cover-xuhuong{
+.cover-xuhuong{
+    border-bottom: 1px solid rgba(0,0,0,.05);
     background: white;
 } 
 i.fa.fa-angle-left {
