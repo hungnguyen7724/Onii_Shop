@@ -48,32 +48,13 @@ body{
     padding: 20px 0;
     display: flex;
     background: #ffffff;
-    margin-left: 60px;
 }
-#banner2,#banner3{
-    height: 127px;
-    width: 467px;
-    border-radius: 2px;
-}
-.banner-left{
-    width: 824px;
-    border-radius: 2px;
-}
-.banner-right.right {
-    padding-right: 32px;
-    float: right;
-}
+
+
 .main-header-top.right {
     margin-right: -10px;
 }
-#banner1{
-    margin-left: -32px;
-    width: 858px;
-    height: 260px;
-    border-radius: 2px;
-    object-fit: cover;
-}
-#banner2{margin-bottom: 7px;}
+
 
 .line{ border-top: 1px #000000cc solid;}
 .cart {
