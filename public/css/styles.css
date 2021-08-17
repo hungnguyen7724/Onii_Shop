@@ -44,36 +44,24 @@ body{
     background: tomato;
     border: white;
 }
+/* Banner */
 .banner {
     padding: 20px 0;
-    display: flex;
     background: #ffffff;
-    margin-left: 60px;
 }
-#banner2,#banner3{
-    height: 127px;
-    width: 467px;
-    border-radius: 2px;
-}
-.banner-left{
-    width: 824px;
-    border-radius: 2px;
-}
-.banner-right.right {
-    padding-right: 32px;
+
+.banner_right{
     float: right;
 }
+.banner_left{
+    width: 640px;
+    height: auto;
+}
+
 .main-header-top.right {
     margin-right: -10px;
 }
-#banner1{
-    margin-left: -32px;
-    width: 858px;
-    height: 260px;
-    border-radius: 2px;
-    object-fit: cover;
-}
-#banner2{margin-bottom: 7px;}
+
 
 .line{ border-top: 1px #000000cc solid;}
 .cart {
@@ -219,12 +207,13 @@ button#button-addon8 {
     margin-top: .3125rem;
     color: #757575;
     font-size: .8125rem;
-
 }
-
 /* Tìm kiếm hàng đầu */
 .cover-timkiem{
     padding-top: 20px;
+}
+.timkiem-content{
+    background: white;
 }
 .toptimkiem .nuochoa-timkiem img{
     height: 68px;
@@ -321,17 +310,7 @@ button#button-addon8 {
     text-align: center;
     background-color: rgb(246, 145, 19);
 }
-/* giảm giá svg */
-/* ._2DRZW {
-    width: .25rem;
-    height: 1rem;
-    position: absolute;
-    top: 0;
-    background: black;
-    backface-visibility: hidden;
-    /* -webkit-transform: translateZ(0); 
-    transform: translateZ(0);
-} */
+
 .aogiunhiet img{
     width: 208px;
     height: 188px;
@@ -502,100 +481,3 @@ i.fa.fa-angle-right {
 .giunhiet:hover{
     border: 2px solid #ee4d2d;
 }
-
-/* Reponsive */
-/* @media screen and (max-width: 1024px) {
-    #banner1 {
-        width: 129%;
-        margin-left: -60px;
-        padding-right: 25%;
-    }
-    #banner2, #banner3 {
-        margin-right: -30px;
-        object-fit: cover;
-    }
-    #dangky2{margin-top: 168%;}
-    .xuhuong {
-        margin: 0 16%;}
-    .bg-flash {
-        margin-top: 58%;
-    }
-    .bg-flash .owl-carousel .owl-nav button.owl-next {
-        font-size: 3rem;
-        margin-left: 20px;
-    }
-    .cover-timkiem .cover-timkiem .owl-carousel .owl-nav button.owl-next {margin-left: 88%;}
-    .cover-timkiem{
-        padding-bottom: 240px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .left, .main, .right {
-        width: 100%; 
-      }
-      input.form-control {
-          margin-left: 60px;
-      }
-      #dangky2{
-          margin-top: 248%;
-      }
-      .xemthem-goiy a{
-          margin-left: -20px;
-          padding: 0;
-      }
-      #ban-thang{
-          background: #FCB813;
-          padding-left: 14px;
-          margin-right: -100.5px;
-      }
-      .main-header-top.center {
-          margin: 0 -85px;
-          text-align: left;
-      }
-      #banner1{max-width: 137%;}
-      .flash-sale .owl-theme .owl-nav{ margin: 0;}
-      .price{padding: 0 15px;}
-      .giunhiet{ margin: 14px; 
-    }
-}
-@media screen and (max-width: 680px) {
-    .flash-sale {
-        padding-top: 130%;
-        color: #EE4623;
-        font-weight: bold;
-    }
-    #dangky2 {
-        margin-top: 495%;
-        width: 80%;
-    }.cover-timkiem{padding-bottom: 230px;}
-    .bg-flash .owl-carousel .owl-nav button.owl-next {
-        font-size: 3rem;
-        margin-left: 20px;
-    }
-    .bg-danhmuc i.fa.fa-angle-right {
-        display: flex;
-        margin-left: -15px;}
-}
-@media screen and (max-width: 480px) {
-    .cover-timkiem{margin: 0 16%;
-        padding-bottom: 235px;
-        margin-top: 30px;
-        background: white;
-    }
-    #dangky2{
-        padding-top: 180%;
-    }
-    .giunhiet{
-        margin: 0;
-    }
-    #ban-thang{margin-right: -127px;}
-}
-@media screen and (max-width: 320px) {
-    #dangky2 {
-        margin-top: 45%;
-    }
-    #banner2, #banner3 {
-         margin-right: 0;
-    }    
-} */
