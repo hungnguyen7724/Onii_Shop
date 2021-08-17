@@ -162,46 +162,102 @@
         <div class="container">
             <div class="full-banner">
                 <div class="row">
-                    <div class="col">
-                        <div class="start-carousel">
-                            <div class="owl-carousel owl-theme">
-                                <div class="item">
-                                    <a href=""> <img src="./public/img/banner-1.png" alt=""></a>
+                    <div class="owl-carousel owl-theme owl-banner ">
+                        <div class="col">
+                            <div class="item">
+                                <div class="banner_left">
+                                    <a href=""> <img src="./public/img/banner-1.png" alt="" class="img-fluid"> </a>
                                 </div>
-                                <div class="item">
-                                    <a href=""> <img src="./public/img/banner-2.png" alt=""> </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item">
+                                <div class="banner_left">
+                                    <a href=""> <img src="./public/img/banner-2.png" alt="" class="img-fluid"></a>
                                 </div>
-                                <div class="item">
-                                    <a href=""> <img src="./public/img/banner-3.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item">
+                                <div class="banner_left">
+                                    <a href=""> <img src="./public/img/banner-3.png" alt="" class="img-fluid"></a>
                                 </div>
-                                <div class="item">
-                                    <a href=""> <img src="./public/img/banner-4.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item">
+                                <div class="banner_left">
+                                    <a href=""> <img src="./public/img/banner-4.png" alt="" class="img-fluid"></a>
                                 </div>
-                                <div class="item">
-                                    <a href=""> <img src="./public/img/banner-5.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item">
+                                <div class="banner_left">
+                                    <a href=""> <img src="./public/img/banner-5.png" alt="" class="img-fluid"></a>
                                 </div>
-                                <div class="item">
-                                    <a href=""> <img src="./public/img/banner-6.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item">
+                                <div class="banner_left">
+                                    <a href=""> <img src="./public/img/banner-6.png" alt="" class="img-fluid"></a>
                                 </div>
-                                <div class="item">
-                                    <a href=""> <img src="./public/img/banner-7.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item">
+                                <div class="banner_left">
+                                    <a href=""> <img src="./public/img/banner-7.png" alt="" class="img-fluid"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item">
+                                <div class="banner_left">
+                                    <a href=""> <img src="./public/img/banner-8.png" alt="" class="img-fluid"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item">
+                                <div class="banner_left">
+                                    <a href=""> <img src="./public/img/banner-9.png" alt="" class="img-fluid"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item">
+                                <div class="banner_left">
+                                    <a href=""> <img src="./public/img/banner-10.png" alt="" class="img-fluid"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="banner_right">
-                        <div class="bn_right1">
-                            <a href=""> <img src="./public/img/banner-right1.png" alt=""> </a>
+
+              
+                    <div class="banner_right right">
+                        <div class="col ">
+                            <div class="bn_right1">
+                                <a href=""> <img src="./public/img/banner-right1.png" alt=""> </a>
+                            </div>
+                            <div class="bn_right2">
+                                <a href=""> <img src="./public/img/banner-right2.png" alt=""> </a>
+                            </div>
                         </div>
-                        <div class="bn_right2">
-                            <a href=""> <img src="./public/img/banner-right2.png" alt=""> </a>
-                        </div>
-                    </div> -->
+                    </div>
                 </div>
+
             </div>
+
         </div>
     </div>
     </div>
+
+    </div>
+    </div>
+
+
     <!-- Line -->
     <div class="line"></div>
     <!-- Content -->
@@ -210,7 +266,7 @@
             <div class="container">
                 <h3>DANH MỤC</h3>
                 <div class="row">
-                    <div class="col ">
+                    <div class="col">
                         <div class="owl-carousel owl-theme">
                             <div class="item">
                                 <div class="col-12 category-farames">
@@ -306,7 +362,7 @@
                         <h3>FLASH SALE</h3>
 
                     </div>
-                   
+
                     <div class="line"></div>
                     <div class="row">
                         <div class="col">
@@ -1179,23 +1235,6 @@
 
     <script>
 
-        var owl = $('.owl-carousel');
-        owl.owlCarousel({
-            items: 4,
-            loop: true,
-            margin: 10,
-            autoplay: true,
-            autoplayTimeout: 1000,
-            autoplayHoverPause: true
-        });
-        $('.play').on('click', function () {
-            owl.trigger('play.owl.autoplay', [1000])
-        })
-        $('.stop').on('click', function () {
-            owl.trigger('stop.owl.autoplay')
-        })
-
-
         $('.owl-carousel').owlCarousel({
             loop: true,
             margin: 10,
@@ -1214,6 +1253,17 @@
                 }
             }
         })
+
+        //Banner
+        var owl = $('.full-banner');
+        owl.owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 0,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true
+        });
 
 
     </script>
