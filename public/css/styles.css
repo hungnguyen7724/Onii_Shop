@@ -44,10 +44,18 @@ body{
     background: tomato;
     border: white;
 }
+/* Banner */
 .banner {
     padding: 20px 0;
-    display: flex;
     background: #ffffff;
+}
+
+.banner_right{
+    float: right;
+}
+.banner_left{
+    width: 640px;
+    height: auto;
 }
 
 .main-header-top.right {
@@ -302,17 +310,7 @@ button#button-addon8 {
     text-align: center;
     background-color: rgb(246, 145, 19);
 }
-/* giảm giá svg */
-/* ._2DRZW {
-    width: .25rem;
-    height: 1rem;
-    position: absolute;
-    top: 0;
-    background: black;
-    backface-visibility: hidden;
-    /* -webkit-transform: translateZ(0); 
-    transform: translateZ(0);
-} */
+
 .aogiunhiet img{
     width: 208px;
     height: 188px;
