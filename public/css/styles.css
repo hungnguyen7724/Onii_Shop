@@ -44,13 +44,47 @@ body{
     background: tomato;
     border: white;
 }
-/* Banner */
-.banner {
-    display: flex;
-    padding: 20px 0;
-    background: #ffffff;
+.slide-phai{
+    margin-left: -5px;
 }
+/* Banner */
+.banner .owl-carousel .owl-nav button.owl-prev:hover, .banner .owl-carousel .owl-nav button.owl-next:hover{
+    border: #ee4d2d solid 1px;
+    color: #ee4d2d;
+}
+.banner .owl-carousel .owl-nav button.owl-next{
+  color: grey;
+    background: none;
+    background: #fff;
+    border-radius: 50%;
+    border: gray solid 1px;  
+} 
+.banner .owl-carousel .owl-nav button.owl-prev {
+  background-size: cover;
+    border: grey solid 1px;
+    margin-right: 0;
+    text-align: justify;
+    border-radius: 50%;
+    left: -14px;
+    position: absolute;
+    background: #fff;
+}
+.slide-trai .owl-carousel .owl-item img{
+    display: block;
+    width: 100%;
+    height: 360px;
+}
+.banner-slide{
+    display: flex;
+}
+.full-slide{
+    display: flex;
+}
+.slide-trai{
+    width: 700px;
+    display: flex;
 
+}
 .main-header-top.right {
     margin-right: -10px;
 }
