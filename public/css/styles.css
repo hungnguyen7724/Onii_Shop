@@ -47,11 +47,41 @@ body{
 .slide-phai{
     margin-left: -5px;
 }
+.slide-phai img{
+    width: 100%;
+    padding: 1px 1px 5px 14px;
+}
 /* Banner */
-.banner .owl-carousel .owl-nav button.owl-prev:hover, .banner .owl-carousel .owl-nav button.owl-next:hover{
+.banner .owl-carousel .owl-nav button.owl-prev ,.banner .owl-carousel .owl-nav button.owl-next{
+    display: none;
+}
+button.owl-prev{
+    position: absolute;
+    z-index: 10000;
+    top: 45%;
+    background: white;
+    border: gray 1px solid;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50px;
+}
+button.owl-next{
+    position: absolute;
+    z-index: 10000;
+    top: 45%;
+    right: 0;
+    margin-right: -15px;
+    background: white;
+    border: gray 1px solid;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50px;
+}
+
+/* .banner .owl-carousel .owl-nav button.owl-prev:hover, .banner .owl-carousel .owl-nav button.owl-next:hover{
     border: #ee4d2d solid 1px;
     color: #ee4d2d;
-}
+} */
 .banner .owl-carousel .owl-nav button.owl-next{
   color: grey;
     background: none;
@@ -59,16 +89,7 @@ body{
     border-radius: 50%;
     border: gray solid 1px;  
 } 
-.banner .owl-carousel .owl-nav button.owl-prev {
-  background-size: cover;
-    border: grey solid 1px;
-    margin-right: 0;
-    text-align: justify;
-    border-radius: 50%;
-    left: -14px;
-    position: absolute;
-    background: #fff;
-}
+
 .slide-trai .owl-carousel .owl-item img{
     display: block;
     width: 100%;
@@ -78,12 +99,12 @@ body{
     display: flex;
 }
 .full-slide{
+    padding: 20px 0;
     display: flex;
 }
 .slide-trai{
+    position: relative;
     width: 700px;
-    display: flex;
-
 }
 .main-header-top.right {
     margin-right: -10px;
