@@ -46,23 +46,14 @@ body{
 }
 /* Banner */
 .banner {
+    display: flex;
     padding: 20px 0;
     background: #ffffff;
-}
-
-.banner_right{
-    float: right;
-}
-.banner_left{
-    width: 640px;
-    height: auto;
 }
 
 .main-header-top.right {
     margin-right: -10px;
 }
-
-
 .line{ border-top: 1px #000000cc solid;}
 .cart {
     margin-top: 14px;
