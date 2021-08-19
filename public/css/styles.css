@@ -56,7 +56,7 @@ body{
 button.owl-prev{
     position: absolute;
     z-index: 10000;
-    left: -15px;
+    left: -9px;
     top: 45%;
     background: white;
     border: gray 1px solid;
