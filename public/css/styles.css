@@ -41,28 +41,26 @@ body{
     width: 40px;
     height: 45px;
     border-radius: 10px;
-    background: tomato;
+    background: #ee4d2d;
     border: white;
 }
-.slide-phai{
-    margin-left: -5px;
-}
-.slide-phai img{
-    width: 100%;
-    padding: 1px 1px 5px 14px;
-}
+
 /* Banner */
 .banner .owl-carousel .owl-nav button.owl-prev ,.banner .owl-carousel .owl-nav button.owl-next{
     display: none;
 }
+.banner{
+    border-bottom: #e9e9e9 1px solid;
+}
 button.owl-prev{
     position: absolute;
     z-index: 10000;
+    left: -15px;
     top: 45%;
     background: white;
     border: gray 1px solid;
-    width: 30px !important;
-    height: 30px !important;
+    width: 25px !important;
+    height: 25px !important;
     border-radius: 50px;
 }
 button.owl-next{
@@ -70,18 +68,17 @@ button.owl-next{
     z-index: 10000;
     top: 45%;
     right: 0;
-    margin-right: -15px;
+    margin-right: -11px;
     background: white;
     border: gray 1px solid;
-    width: 30px !important;
-    height: 30px !important;
+    width: 25px !important;
+    height: 25px !important;
     border-radius: 50px;
 }
 
-/* .banner .owl-carousel .owl-nav button.owl-prev:hover, .banner .owl-carousel .owl-nav button.owl-next:hover{
+.banner button.owl-prev:hover, .banner button.owl-next:hover{
     border: #ee4d2d solid 1px;
-    color: #ee4d2d;
-} */
+}
 .banner .owl-carousel .owl-nav button.owl-next{
   color: grey;
     background: none;
@@ -91,12 +88,17 @@ button.owl-next{
 } 
 
 .slide-trai .owl-carousel .owl-item img{
-    display: block;
-    width: 100%;
-    height: 360px;
-}
-.banner-slide{
     display: flex;
+    width: 100%;
+    height: 270px;
+}
+.slide-trai span{
+    font-size: 25px;
+    line-height: 0.5;
+    color: gray;
+}
+.slide-trai span:hover{
+    color: #ee4d2d ;
 }
 .full-slide{
     padding: 20px 0;
@@ -104,12 +106,15 @@ button.owl-next{
 }
 .slide-trai{
     position: relative;
-    width: 700px;
+    max-width: 900px;
+}
+.slide-duoi a img{
+    margin-top: 20px;
 }
 .main-header-top.right {
     margin-right: -10px;
 }
-.line{ border-top: 1px #000000cc solid;}
+
 .cart {
     margin-top: 14px;
     margin-left: 6px;
@@ -309,9 +314,9 @@ button#button-addon8 {
 }
 .goiy h3{ color: #828282;}
 .giunhiet{
-    background: #fff;
-    padding: 0;
-    margin: 8px;
+    border: #e5e5e5 3px solid;
+    background: #e5e5e5;
+    padding: 4px;
 }
 .yeuthich{
     margin: 8px 0;
@@ -346,7 +351,6 @@ button#button-addon8 {
     backface-visibility: hidden;
 }
 .giamgia{
-    
     width: 50px;
     color: white;
     margin: 0 .1875rem;
@@ -358,16 +362,17 @@ button#button-addon8 {
 }
 
 .aogiunhiet img{
-    width: 208px;
-    height: 188px;
+    width: 100%;
+    height: 260px;
 }
-.aogiunhiet p{
-    margin-left: 5px;
+.giunhiet {
+    background: white;
 }
 .aogiunhiet .right{
     color: #828282;
     margin-right: 5px;
 }
+
 .giunhiet-sp a{
     text-decoration: none;
     color: black;
@@ -525,5 +530,5 @@ i.fa.fa-angle-right {
     border: #828282 1px solid;
 }
 .giunhiet:hover{
-    border: 2px solid #ee4d2d;
+    border: 3px solid #ee4d2d;
 }
