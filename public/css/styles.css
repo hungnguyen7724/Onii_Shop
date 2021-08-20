@@ -46,6 +46,10 @@ body{
 }
 
 /* slide */
+.banner_home .owl-dots {
+    position: relative;
+    margin-top: -25px;
+}
 .slide{
     padding:60px 0;
     }
@@ -76,7 +80,9 @@ body{
     .item-slide:last-child .banner-bottom{
     padding-top:2.5px;
 }
-
+.item-slide:last-child img{
+    float: right;
+}
 /* cart */
 .main-header-top.right {
     margin-right: -10px;
