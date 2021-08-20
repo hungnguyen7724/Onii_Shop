@@ -159,85 +159,11 @@
         </div>
     </header>
 
-    <!-- Test -->
-    <!-- <div class="slide">
-        <div class="container">
-            <div class="full-slide">
-                <div class="left-slide">
-                    <div class="slideshow-container">
-                        <div class="mySlides fade">
-                            <img src="./public/img/banner-1.png" style="width:100%">
-                        </div>
-                
-                        <div class="mySlides fade">
-                            <img src="./public/img/banner-2.png" style="width:100%">
-                        </div>
-                
-                        <div class="mySlides fade">
-                            <img src="./public/img/banner-3.png" style="width:100%">
-                        </div>
-                        <div class="mySlides fade">
-                            <img src="./public/img/banner-4.png" style="width:100%">
-                        </div>
-                
-                        <div class="mySlides fade">
-                            <img src="./public/img/banner-5.png" style="width:100%">
-                        </div>
-                
-                        <div class="mySlides fade">
-                            <img src="./public/img/banner-6.png" style="width:100%">
-                        </div>
-                        <div class="mySlides fade">
-                            <img src="./public/img/banner-7.png" style="width:100%">
-                        </div>
-                
-                        <div class="mySlides fade">
-                            <img src="./public/img/banner-8.png" style="width:100%">
-                        </div>
-                
-                        <div class="mySlides fade">
-                            <img src="./public/img/banner-9.png" style="width:100%">
-                        </div>
-                        <div class="mySlides fade">
-                            <img src="./public/img/banner-10.png" style="width:100%">
-                        </div>
-                
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                
-                    </div>
-                    <br>
-                
-                    <div style="text-align:center">
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
-                        <span class="dot" onclick="currentSlide(4)"></span>
-                        <span class="dot" onclick="currentSlide(5)"></span>
-                        <span class="dot" onclick="currentSlide(6)"></span>
-                        <span class="dot" onclick="currentSlide(7)"></span>
-                        <span class="dot" onclick="currentSlide(8)"></span>
-                        <span class="dot" onclick="currentSlide(9)"></span>
-                        <span class="dot" onclick="currentSlide(9)"></span>
-                    </div>
-                </div>
-                <div class="right-slide">
-                    <div class="top-slide">
-                        <a href=""><img src="./public/img/slide-tren.png" alt=""></a>
-                    </div>
-                    <div class="bottom-slide">
-                        <a href=""><img src="./public/img/slide-duoi.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <div class="slide"> 
         <div class="container">
             <div class="full-slide">
                 <div class="item-slide">
-                    <div class="slide-owl owl-theme">
+                    <div class="owl-carousel owl-theme">
                             <div class="item ">
                                 <a href=""> <img src="./public/img/banner-1.png" alt="" class="img-fluid"></a>
                             </div>
@@ -280,7 +206,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div> 
 
 
     <!-- Content -->
@@ -1279,7 +1205,7 @@ $('.owl-carousel').owlCarousel({
 })
 
 // Banner
-var owl = $('.slide-owl');
+var owl = $('.owl-carousel');
 owl.owlCarousel({
     items: 1,
     loop: true,
@@ -1291,6 +1217,8 @@ owl.owlCarousel({
 
 });
 </script>
+
     
 </body>
+
 </html>
