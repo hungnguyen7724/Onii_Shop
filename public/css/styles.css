@@ -44,11 +44,12 @@ body{
     background: #ee4d2d;
     border: white;
 }
+
 /* slide */
 .full-slide{
     display: flex;
 }
-.item-slide{
+.item-slide {
     display: flex;
     flex-direction: column;
 }
@@ -59,6 +60,8 @@ body{
 .item-slide:first-child{
     width:100%;
 }
+
+/* cart */
 .main-header-top.right {
     margin-right: -10px;
 }
@@ -104,6 +107,7 @@ button#button-addon8 {
     border-radius: 50%;
 }
 .category-farames{
+    background: white;
     border: 1px #ececec solid;
     margin-bottom: 10px;
     text-align: center;
@@ -117,6 +121,9 @@ button#button-addon8 {
     color: #000000;
     text-align: center;
     font-size: .8rem;
+}
+.owl-item.active {
+    background: white;
 }
 .owl-carousel .owl-nav button.owl-next{
     position: absolute;
