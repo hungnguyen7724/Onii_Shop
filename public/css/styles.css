@@ -56,9 +56,10 @@ body{
     max-width:400px;
     width:100%;
     flex-direction: column;
-
 }
 .item-slide:first-child{
+    max-width: 735px;
+    margin-right: 5px;
     width:100%;
 }
 
