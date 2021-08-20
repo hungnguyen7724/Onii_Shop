@@ -501,7 +501,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <div class="owl-carousel owl-theme">
+                            <div class="search-home owl-carousel owl-theme">
                                 <div class="item">
                                     <div class="toptimkiem ">
                                         <div class="col ">
@@ -1183,6 +1183,7 @@
 
 
     <script>
+        //fsale
         $('.fsale-home').owlCarousel({
             loop: true,
             margin: 10,
@@ -1202,6 +1203,7 @@
             }
         })
 
+        //content
         $('.content-home').owlCarousel({
             loop: true,
             margin: 10,
@@ -1220,10 +1222,28 @@
                 }
             }
         })
-        
 
-        // Banner
-        
+        //search
+        $('.search-home').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        })
+
+        //slide
         $('.banner_home').owlCarousel({
             loop: true,
             margin: 10,
