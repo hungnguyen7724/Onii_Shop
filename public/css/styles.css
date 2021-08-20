@@ -46,6 +46,9 @@ body{
 }
 
 /* slide */
+.slide{
+    padding:60px 0;
+    }
 .full-slide{
     max-height: 235px;
     display: flex;
@@ -72,7 +75,7 @@ body{
     }
     .item-slide:last-child .banner-bottom{
     padding-top:2.5px;
-    }
+}
 
 /* cart */
 .main-header-top.right {
