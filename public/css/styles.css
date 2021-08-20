@@ -61,6 +61,7 @@ body{
     display: flex;
 }
 .item-slide:last-child img{
+
     max-width:100%;
     width:auto;
     }
@@ -70,7 +71,7 @@ body{
     flex-direction: column;
 }
 .item-slide:first-child{
-    max-width: 735px;
+    max-width: 900px;
     margin-right: 5px;
     width:100%;
 }
@@ -80,8 +81,8 @@ body{
     .item-slide:last-child .banner-bottom{
     padding-top:2.5px;
 }
-.item-slide:last-child img{
-    float: right;
+.owl-carousel .owl-item img{
+    height: 240px;
 }
 /* cart */
 .main-header-top.right {
