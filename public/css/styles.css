@@ -47,11 +47,16 @@ body{
 
 /* slide */
 .full-slide{
+    max-height: 235px;
     display: flex;
 }
 .item-slide{
     display: flex;
 }
+.item-slide:last-child img{
+    max-width:100%;
+    width:auto;
+    }
 .item-slide:last-child{
     max-width:400px;
     width:100%;
@@ -62,6 +67,12 @@ body{
     margin-right: 5px;
     width:100%;
 }
+.item-slide:last-child .banner-top{
+    padding-bottom:2.5px;
+    }
+    .item-slide:last-child .banner-bottom{
+    padding-top:2.5px;
+    }
 
 /* cart */
 .main-header-top.right {
