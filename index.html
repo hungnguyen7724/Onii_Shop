@@ -159,14 +159,14 @@
         </div>
     </header>
 
-    <div class="slide"> 
+    <div class="slide">
         <div class="container">
             <div class="full-slide">
                 <div class="item-slide">
-                    <div class="owl-carousel owl-theme">
-                            <div class="item ">
-                                <a href=""> <img src="./public/img/banner-1.png" alt="" class="img-fluid"></a>
-                            </div>
+                    <div class="banner_home owl-carousel owl-theme">
+                        <div class="item ">
+                            <a href=""> <img src="./public/img/banner-1.png" alt="" class="img-fluid"></a>
+                        </div>
                         <div class="item">
                             <a href=""> <img src="./public/img/banner-2.png" alt="" class="img-fluid"></a>
                         </div>
@@ -206,7 +206,7 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 
 
     <!-- Content -->
@@ -1183,42 +1183,59 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./public/js/owl.carousel.min.js"></script>
 
-    
-<script>
-$('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: true,
-    dots: false,
-    navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 3
-        },
-        1000: {
-            items: 6
-        }
-    }
-})
 
-// Banner
-var owl = $('.owl-carousel');
-owl.owlCarousel({
-    items: 1,
-    loop: true,
-    margin: 0,
-    dots: false,
-    autoplay: true,
-    autoplayTimeout: 2000,
-    autoplayHoverPause: true,
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        })
 
-});
-</script>
+        // Banner
+        
+        $('.banner_home').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 0,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
 
-    
+        });
+    </script>
+
+
 </body>
 
 </html>
