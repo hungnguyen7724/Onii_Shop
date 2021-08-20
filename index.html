@@ -216,7 +216,7 @@
                 <h3>DANH MỤC</h3>
                 <div class="row">
                     <div class="col">
-                        <div class="owl-carousel owl-theme">
+                        <div class="content-home owl-carousel owl-theme">
                             <div class="item">
                                 <div class="col-12 category-farames">
                                     <a href=""><img src="./public/img/dm1-dienthoai.png" alt="" class="img-fluid">
@@ -310,13 +310,11 @@
                 <div class="bg-flash ">
                     <div class="flash_tieude">
                         <h3>FLASH SALE</h3>
-
                     </div>
-
                     <div class="line"></div>
                     <div class="row">
                         <div class="col">
-                            <div class="owl-carousel owl-theme owl2">
+                            <div class="fsale-home owl-carousel owl-theme owl2">
                                 <div class="item">
                                     <div class="fsale">
                                         <a href="">
@@ -1185,7 +1183,7 @@
 
 
     <script>
-        $('.owl-carousel').owlCarousel({
+        $('.fsale-home').owlCarousel({
             loop: true,
             margin: 10,
             nav: true,
@@ -1203,6 +1201,26 @@
                 }
             }
         })
+
+        $('.content-home').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        })
+        
 
         // Banner
         
@@ -1222,17 +1240,7 @@
                 }
             }
         })
-        var owl = $('.owl-carousel');
-        owl.owlCarousel({
-            items: 1,
-            loop: true,
-            margin: 0,
-            dots: false,
-            autoplay: true,
-            autoplayTimeout: 2000,
-            autoplayHoverPause: true,
-
-        });
+       
     </script>
 
 
