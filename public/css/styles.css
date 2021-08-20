@@ -72,7 +72,6 @@ body{
 }
 .item-slide:first-child{
     max-width: 900px;
-    margin-right: 5px;
     width:100%;
 }
 .item-slide:last-child .banner-top{
