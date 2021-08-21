@@ -519,7 +519,12 @@ i.fa.fa-angle-right {
         max-width: 500px;
     }
     .item-slide:last-child .banner-top{
+        position: relative;
         padding-bottom: 3px;
+    }
+    .item-slide:last-child .banner-bottom{
+        position: relative;
+        padding-top: 3px;
     }
 }
 
