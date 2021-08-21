@@ -88,12 +88,23 @@ body{
 .item-slide:last-child .banner-top{
     position: relative;
     height: 50%;
-    padding-bottom:2.5px;
+    margin-bottom:2.5px;
 }
 .item-slide:last-child .banner-bottom{
     position: relative;
     height: 50% ;
-    padding-top:2.5px;
+    margin-top:2.5px;
+}
+.slide .owl-carousel .owl-nav button.owl-prev {
+    margin-right: 0;
+    text-align: justify;
+    border-radius: 50%;
+    left: -5px;
+    position: absolute;
+}
+.slide .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    right: -5px;
 }
 
 /* cart */
@@ -532,7 +543,8 @@ i.fa.fa-angle-right {
 
   @media (min-width: 768px)  and (max-width: 1399.98px){
     .item-slide:first-child{
-
+        max-width: 710px;
+        margin-right: 6px;
     }
     .item-slide:last-child{
 
