@@ -95,9 +95,7 @@ body{
     height: 50% ;
     padding-top:2.5px;
 }
-.owl-carousel .owl-item img{
-    height: 243px;
-}
+
 /* cart */
 .main-header-top.right {
     margin-right: -10px;
@@ -525,11 +523,9 @@ i.fa.fa-angle-right {
         max-width: 500px;
     }
     .item-slide:last-child .banner-top{
-        position: relative;
         margin-bottom: 3px;
     }
     .item-slide:last-child .banner-bottom{
-        position: relative;
         margin-top: 3px;
     }
 }
