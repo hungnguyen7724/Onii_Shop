@@ -75,6 +75,7 @@ body{
     flex-direction: column;
 }
 .item-slide:first-child{
+    max-width: 900px;
     width:100%;
 }
 .item-slide:last-child .banner-top{
@@ -504,11 +505,14 @@ i.fa.fa-angle-right {
 /* reponsive */
 @media (min-width:1400px){
     .item-slide:first-child{
-        width: 790px;
+        margin-right: 6px;
+        max-width:  790px;
+        width: 100%;
     }
     .item-slide:last-child{
         max-width: 500px;
   }
+}
 
   @media (min-width: 768px)  and (max-width: 1399.98px){
     .item-slide:first-child{
