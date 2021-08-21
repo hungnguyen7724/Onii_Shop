@@ -88,12 +88,18 @@ body{
 .item-slide:last-child .banner-top{
     position: relative;
     height: 50%;
-    margin-bottom:2.5px;
+    margin-bottom: 3px;
 }
 .item-slide:last-child .banner-bottom{
     position: relative;
     height: 50% ;
-    margin-top:2.5px;
+    margin-top: 3px;
+}
+.slide .owl-theme .owl-nav {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: #828282;
 }
 .slide .owl-carousel .owl-nav button.owl-prev {
     margin-right: 0;
@@ -152,6 +158,12 @@ button#button-addon8 {
     background: white;
     border-radius: 50%;
 }
+.bg-danhmuc .owl-theme .owl-nav {
+    position: absolute;
+    top: 143px;
+    width: 100%;
+    color: #828282;
+}
 .category-farames{
     background: white;
     border: 1px #ececec solid;
@@ -195,6 +207,11 @@ button#button-addon8 {
 /* Flash sale */
 .fsale{
     margin: 0 14px 0 -10px;
+}
+.flash-sale .owl-theme .owl-nav {
+    position: absolute;
+    top: 70px;
+    width: 100%;
 }
 .flash-sale .owl-theme .owl-nav {
     color: #828282;
@@ -266,6 +283,12 @@ button#button-addon8 {
 .toptimkiem .owl-carousel .owl-item img{
     height: 180px;
 }
+.timkiemhd .owl-theme .owl-nav {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    color: #828282;
+}
 
 #ban-thang{
     line-height: 1.5625rem;
@@ -302,11 +325,11 @@ button#button-addon8 {
     background: #fff;
 }
 #bd-goiy{
-    width: 230px;
+    width: 213px;
     color: #ee4d2d;
     padding: 10px 0;
     text-align: center;
-    border-bottom: #ee4d2d 4px solid;
+    border-bottom: #ee4d2d 3px solid;
 }
 .goiy h3{ color: #828282;}
 .giunhiet{
@@ -314,7 +337,7 @@ button#button-addon8 {
     background: #e5e5e5;
     padding: 4px;
 }
-.yeuthich{
+.like{
     margin: 8px 0;
     width: 70px;
     height: auto;
