@@ -75,7 +75,6 @@ body{
     flex-direction: column;
 }
 .item-slide:first-child{
-    max-width: 900px;
     width:100%;
 }
 .item-slide:last-child .banner-top{
@@ -417,14 +416,7 @@ footer .img-fluid{
     width: 180px;
     height: auto;
 }
-/* #dangky1 {
-    width: 80%;
-}
-#dangky2{
-    margin-top: 245px;
-    width: 80%;
-    margin-left: -33px;
-} */
+
 /* chinh sach */
 .chinhsach a{
     color: black;
@@ -518,37 +510,11 @@ i.fa.fa-angle-right {
         max-width: 500px;
   }
 
-
-
-  /* @media only screen and (max-width:1399px){
-    .item-slide:last-child{
-        display: none;
-     }
-     .item-slide:first-child{
-        width:100%;
-        height: auto;
-        margin-right: 3px;
-    }
-} */
-
-
-/* @media only screen and (max-width:1199px){
-    .slide {
-        height: auto;
-        padding: 60px 0;
-    }
+  @media (min-width: 768px)  and (max-width: 1399.98px){
     .item-slide:first-child{
-        width:100%;
-        height: 225px;
-        margin-right: 3px;
+
     }
     .item-slide:last-child{
-       display: none;
+
     }
-    .banner_home .owl-carousel .owl-item img{
-        height: 136px;
-    }
-    .item-slide:last-child .banner-bottom {
-        padding-top: 0;
-    }
-} */
+}
