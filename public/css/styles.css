@@ -66,16 +66,22 @@ body{
     display: flex;
 }
 .item-slide:last-child img{
-    max-width:100%;
-    width:auto;
-    }
+    max-width: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    max-height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    position: absolute;
+    vertical-align: bottom;
+}
 .item-slide:last-child{
     max-width:400px;
     width:100%;
     flex-direction: column;
 }
 .item-slide:first-child{
-    max-width: 900px;
     width:100%;
 }
 .item-slide:last-child .banner-top{
@@ -511,7 +517,10 @@ i.fa.fa-angle-right {
     }
     .item-slide:last-child{
         max-width: 500px;
-  }
+    }
+    .item-slide:last-child .banner-top{
+        padding-bottom: 3px;
+    }
 }
 
   @media (min-width: 768px)  and (max-width: 1399.98px){
