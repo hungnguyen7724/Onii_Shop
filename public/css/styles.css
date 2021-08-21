@@ -77,6 +77,7 @@ body{
     vertical-align: bottom;
 }
 .item-slide:last-child{
+    position: relative;
     max-width:400px;
     width:100%;
     flex-direction: column;
@@ -521,7 +522,6 @@ i.fa.fa-angle-right {
     }
     
     .item-slide:last-child{
-        position: relative;
         max-width: 500px;
     }
     .item-slide:last-child .banner-top{
