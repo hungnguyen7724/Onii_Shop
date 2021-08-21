@@ -85,9 +85,11 @@ body{
     width:100%;
 }
 .item-slide:last-child .banner-top{
+    height: 50%;
     padding-bottom:2.5px;
-    }
-    .item-slide:last-child .banner-bottom{
+}
+.item-slide:last-child .banner-bottom{
+    height: 50% ;
     padding-top:2.5px;
 }
 .owl-carousel .owl-item img{
@@ -515,7 +517,9 @@ i.fa.fa-angle-right {
         max-width:  790px;
         width: 100%;
     }
+    
     .item-slide:last-child{
+        position: relative;
         max-width: 500px;
     }
     .item-slide:last-child .banner-top{
