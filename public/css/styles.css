@@ -85,10 +85,12 @@ body{
     width:100%;
 }
 .item-slide:last-child .banner-top{
+    position: relative;
     height: 50%;
     padding-bottom:2.5px;
 }
 .item-slide:last-child .banner-bottom{
+    position: relative;
     height: 50% ;
     padding-top:2.5px;
 }
@@ -524,11 +526,11 @@ i.fa.fa-angle-right {
     }
     .item-slide:last-child .banner-top{
         position: relative;
-        padding-bottom: 3px;
+        margin-bottom: 3px;
     }
     .item-slide:last-child .banner-bottom{
         position: relative;
-        padding-top: 3px;
+        margin-top: 3px;
     }
 }
 
