@@ -142,23 +142,23 @@ button#button-addon8 {
     background: #E5E5E5;
 }
 /* Category */
-.bg-danhmuc .owl-stage-outer {
+.bg-category .owl-stage-outer {
     background: white;
 }
-.bg-danhmuc h3{
+.bg-category h3{
   margin-bottom: 0px;
   padding: 10px;
   color: #828282;
   background: white;
 }
-.bg-danhmuc {
+.bg-category {
     padding-top: 20px;}
-.bg-danhmuc i{
+.bg-category i{
     border: grey 1px solid;
     background: white;
     border-radius: 50%;
 }
-.bg-danhmuc .owl-theme .owl-nav {
+.bg-category .owl-theme .owl-nav {
     position: absolute;
     top: 143px;
     width: 100%;
@@ -242,7 +242,7 @@ button#button-addon8 {
     margin: 11px 0 10px 35px;
 }
 /* Xu Hướng Tìm Kiếm */
-.sp-trend, .spxuhuong{
+.sp-trend, .trending-pd{
     display: flex;
 }
 .sp-trend{
@@ -250,7 +250,7 @@ button#button-addon8 {
     padding-right: .625rem;
     background: white;
 }
-.spxuhuong a{
+.trending-pd a{
     text-decoration: none;
     color: #222;
 }
@@ -274,16 +274,16 @@ button#button-addon8 {
     font-size: .8125rem;
 }
 /* Tìm kiếm hàng đầu */
-.cover-timkiem{
+.cover-search{
     padding-top: 20px;
 }
-.timkiem-content{
+.content-search{
     background: white;
 }
 .toptimkiem .owl-carousel .owl-item img{
     height: 180px;
 }
-.timkiemhd .owl-theme .owl-nav {
+.top-search .owl-theme .owl-nav {
     position: absolute;
     top: 100px;
     width: 100%;
@@ -304,35 +304,31 @@ button#button-addon8 {
     font-size: 1.125rem;
     text-align: left;
 }
-.iphone-timkiem {
-    background: white;
-}
-.timkiemhd .owl-carousel .owl-item img {
+
+.top-search .owl-carousel .owl-item img {
     height: 180px;
 }
-.toptimkiem {
+.search-home
+{
     display: flex;
     background: white;
 }
 
-.toptimkiem .nuochoa-timkiem{
-    margin-left: -2px;
-}
-/* Gợi ý hôm nay */
-.goiy{
+/* t0day-recommend */
+.recommend{
     padding-top: 20px;}
-.goiyhn{
+.today-recommend, .search-product {
     background: #fff;
 }
-#bd-goiy{
+#bd-recommend{
     width: 213px;
     color: #ee4d2d;
     padding: 10px 0;
     text-align: center;
     border-bottom: #ee4d2d 3px solid;
 }
-.goiy h3{ color: #828282;}
-.giunhiet{
+.recommend h3{ color: #828282;}
+.content-re{
     border: #e5e5e5 3px solid;
     background: #e5e5e5;
     padding: 4px;
@@ -349,7 +345,7 @@ button#button-addon8 {
     background: #ee4d2d;
     backface-visibility: hidden;
 }
-.giam{
+.reduce{
     margin-bottom: -50px;
     text-align: center;
     width: 40px;
@@ -358,7 +354,7 @@ button#button-addon8 {
     float: right;
     backface-visibility: hidden;
 }
-.taitro{
+.sponsor{
     width: 50px;
     text-align: center;
     float: right;
@@ -369,7 +365,7 @@ button#button-addon8 {
     font-size: .75rem;
     backface-visibility: hidden;
 }
-.giamgia{
+.discount{
     width: 50px;
     color: white;
     margin: 0 .1875rem;
@@ -380,19 +376,19 @@ button#button-addon8 {
     background-color: rgb(246, 145, 19);
 }
 
-.aogiunhiet img{
+.text-recommend-product img{
     width: 100%;
     height: 260px;
 }
-.giunhiet {
+.content-re {
     background: white;
 }
-.aogiunhiet .right{
+.text-recommend-product .right{
     color: #828282;
     margin-right: 5px;
 }
 
-.giunhiet-sp a{
+.re-product a{
     text-decoration: none;
     color: black;
 }
@@ -402,7 +398,7 @@ button#button-addon8 {
     color:#ED3029;
     margin-bottom:24px;
 }
-.xemthem-goiy a{
+.see-recommend a{
     border: 1px solid #00000017;
     text-align: center;
     background: white;
@@ -410,11 +406,11 @@ button#button-addon8 {
     text-decoration: none;
     padding: 10px 80px;
 }
-.xemthem-goiy>a:hover{
+.see-recommend>a:hover{
     border: 1px solid #00000017;
     background: #E5E5E5;
 }
-.xemthem-goiy{
+.see-recommend{
     text-align: center;
     padding-top: 60px;
     padding-bottom: 80px;
@@ -433,11 +429,11 @@ footer p{
 footer .img-fluid{
     width: 25%;
 }
-.chamsockhach {
+.care {
     margin-left: 20px;
     padding-top: 40px;
 }
-.chamsockhach a{
+.care a{
     text-decoration: none;
     color: rgba(0,0,0,.54);
     display: flex;
@@ -450,19 +446,19 @@ footer .img-fluid{
     font-size: 20px;
     margin: 8px 0px;
 }
-.lienhe p{
+.contact p{
     font-size: 1rem;
     font-weight: normal;
     color: black;
 }
-.dangky img{
+.register img{
     margin: 5px 10px;
     width: 180px;
     height: auto;
 }
 
-/* chinh sach */
-.chinhsach a{
+/* policy chinh sach */
+.policy a{
     color: black;
     font-weight: normal;
     text-decoration: none;
@@ -471,7 +467,7 @@ footer .img-fluid{
 .chamsockhach a:hover{
     color: #ee4d2d;
 }
-.chinhsach .row{
+.policy .row{
     margin-left: 31px;
     margin-right: 37px;
     padding-top: 15px;
@@ -479,10 +475,10 @@ footer .img-fluid{
     border-bottom: 1px solid #e5e5e5;
     font-size: 0.8rem;
 }
-.chinhsach .main-header-top>ul{
+.policy .main-header-top>ul{
     margin-left:15% ;
 }
-.baohanh p{
+.security p{
     text-align: center;
     color: black;
     font-weight: normal;
@@ -498,15 +494,15 @@ footer .img-fluid{
     padding-top: 100;
 }
 /* all */
-.col.right.xem-sp{
+.col.right.see-product{
     padding: 10px 40px;
 }
-.xem-sp a{
+.see-product a{
     padding: 10px 0px;
     text-decoration: none;
     color: #ee4d2d;
 }
-.cover-xuhuong{
+.cover-trends{
     border-bottom: 1px solid rgba(0,0,0,.05);
     background: white;
 } 
@@ -516,7 +512,7 @@ i.fa.fa-angle-left {
 i.fa.fa-angle-right {
     padding:4px 7px 4px 9px;
 }
-.cover-timkiem i{
+.cover-search i{
     border: grey 1px solid;
     background: white;
     border-radius: 50%;   
@@ -529,19 +525,18 @@ i.fa.fa-angle-right {
 .bg-flash{
     background: #ffffff;
 }
-
 .owl-theme .owl-nav [class*=owl-]:hover {
     color: #ee4d2d;
     background: none;
 }
-.bg-danhmuc i:hover, .slide i:hover, .flash-sale i:hover, .cover-timkiem i:hover{
+.bg-category i:hover, .slide i:hover, .flash-sale i:hover, .cover-search i:hover{
     border: 1px solid #ee4d2d;
 }
 /* hover cac item */
 .category-farames:hover{
     border: #828282 1px solid;
 }
-.giunhiet:hover{
+.content-re:hover{
     border: 3px solid #ee4d2d;
 }
 
@@ -564,12 +559,12 @@ i.fa.fa-angle-right {
     }
 }
 
-  @media (min-width: 768px)  and (max-width: 1399.98px){
+@media (min-width: 768px)  and (max-width: 1399.98px){
     .item-slide:first-child{
         max-width: 710px;
         margin-right: 6px;
     }
-    .item-slide:last-child{
+    /* .item-slide:last-child{
 
-    }
+    } */
 }
