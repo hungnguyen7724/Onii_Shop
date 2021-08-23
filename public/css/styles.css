@@ -329,9 +329,10 @@ button#button-addon8 {
 }
 .recommend h3{ color: #828282;}
 .content-re{
+    background: #fff;
+    position: relative;
     border: #e5e5e5 3px solid;
-    background: #e5e5e5;
-    padding: 4px;
+    padding: 2px;
 }
 .like{
     margin: 8px 0;
@@ -378,11 +379,9 @@ button#button-addon8 {
 
 .text-recommend-product img{
     width: 100%;
-    height: 260px;
+    height: auto;
 }
-.content-re {
-    background: white;
-}
+
 .text-recommend-product .right{
     color: #828282;
     margin-right: 5px;
@@ -396,7 +395,6 @@ button#button-addon8 {
     position: absolute;
     font-weight: bold;
     color:#ED3029;
-    margin-bottom:24px;
 }
 .see-recommend a{
     border: 1px solid #00000017;
