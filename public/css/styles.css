@@ -306,6 +306,7 @@ button#button-addon8 {
 }
 
 .top-search .owl-carousel .owl-item img {
+    width: 100%
     height: 180px;
 }
 .search-home
