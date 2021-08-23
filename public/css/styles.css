@@ -171,8 +171,8 @@ button#button-addon8 {
     text-align: center;
 }
 .category-farames img.img-fluid {
-    width: 190px;
-    height: 140px;
+    width: 100%;
+    height: auto;
     padding-left: 20px;
 }
 .item a{
@@ -234,7 +234,7 @@ button#button-addon8 {
     margin-left: 10px;
 }
 
-.daban{
+.sold{
     border-radius: 10px;
     color: white;
     background: #EE4623;
@@ -290,14 +290,14 @@ button#button-addon8 {
     color: #828282;
 }
 
-#ban-thang{
+#sold-month{
     line-height: 1.5625rem;
     background-color: rgba(0,0,0,.26);
     color: #fff;
     text-align: center;
     margin: 5px 10px;
 }
-#oplung{
+#name-product{
     text-align: left;
     padding: 10px 18px;
     color: #555;
@@ -404,7 +404,7 @@ button#button-addon8 {
     background: white;
     color: #555555;
     text-decoration: none;
-    padding: 10px 80px;
+    padding: 10px 30px;
 }
 .see-recommend>a:hover{
     border: 1px solid #00000017;
@@ -420,7 +420,7 @@ footer{
     padding-bottom: 1px;
     background: #f5f5f5;
     padding-top: 5px;
-    border-top: 2px solid #EE4623;
+    border-top: 4px solid #ee4d2d;
 }
 footer p{
     color: #828282;
@@ -459,24 +459,21 @@ footer .img-fluid{
 
 /* policy chinh sach */
 .policy a{
+    padding: 0 10px;
     color: black;
     font-weight: normal;
     text-decoration: none;
     font-size: 0.8rem;
 }
-.chamsockhach a:hover{
+
+.main-poicy{
+    padding: 15px 0;
+    border-top: #ededed .5px solid;
+    border-bottom: #ededed .5px solid;
+    text-align: center;
+}
+.care a:hover, .main-poicy a:hover{
     color: #ee4d2d;
-}
-.policy .row{
-    margin-left: 31px;
-    margin-right: 37px;
-    padding-top: 15px;
-    border-top: 1px solid #e5e5e5;
-    border-bottom: 1px solid #e5e5e5;
-    font-size: 0.8rem;
-}
-.policy .main-header-top>ul{
-    margin-left:15% ;
 }
 .security p{
     text-align: center;
@@ -484,14 +481,9 @@ footer .img-fluid{
     font-weight: normal;
     margin-top: -25px;
 }
-#trachnhiem {
-    margin-right: -152px;
-}
-.vanchuyen{
+
+.shipping-unit-img{
     width: 122%;
-}
-#dvship{
-    padding-top: 100;
 }
 /* all */
 .col.right.see-product{
