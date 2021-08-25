@@ -118,9 +118,9 @@ body{
     margin-right: -10px;
 }
 .cart {
-    margin-top: 14px;
-    margin-left: 6px;
-    font-size: 20px;
+    margin-bottom: -7px;
+    margin-right: -8px;
+    font-size: 35px;
 } 
 
 /* icon search */
@@ -158,13 +158,18 @@ button#button-addon8 {
     background: white;
     border-radius: 50%;
 }
-.bg-category .owl-theme .owl-nav {
+.bg-category .owl-nav {
+    display: block;
     position: absolute;
-    top: 190px;
+    top: 125px;
     width: 100%;
     color: #828282;
 }
+.bg-category .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+    display: block;
+}
 .category-farames{
+    padding: 2px;
     background: white;
     border: 1px #ececec solid;
     margin-bottom: 10px;
@@ -173,7 +178,6 @@ button#button-addon8 {
 .category-farames img.img-fluid {
     width: 100%;
     height: auto;
-    padding-left: 20px;
 }
 .item a{
     font-size: 1.2rem;
@@ -197,12 +201,7 @@ button#button-addon8 {
     left: -14px;
     position: absolute;
 }
-.owl-theme .owl-nav{
-    position: absolute;
-    top: 42%;
-    width: 100%;
-    color: #828282;
-}
+
 
 /* Flash sale */
 .fsale{
@@ -289,16 +288,7 @@ button#button-addon8 {
     width: 100%;
     color: #828282;
 }
-.top {
-    position: absolute;
-    background-image: url(../img/top.png);
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 2rem;
-    height: 2.5rem;
-    background-size: 2rem 2.5rem;
-}
+
 #sold-month{
     line-height: 1.5625rem;
     background-color: rgba(0,0,0,.26);
@@ -307,11 +297,11 @@ button#button-addon8 {
     margin: 5px 10px;
 }
 #name-product{
-    padding: 10px 17px;
-    font-size: 1.25rem;
-    margin-left: -8px;
     text-align: left;
+    padding: 10px 18px;
     color: #555;
+    font-size: 1.125rem;
+    text-align: left;
 }
 
 .top-search .owl-carousel .owl-item img {
@@ -323,6 +313,7 @@ button#button-addon8 {
     display: flex;
     background: white;
 }
+
 
 /* t0day-recommend */
 .recommend{
@@ -342,7 +333,7 @@ button#button-addon8 {
     background: #fff;
     position: relative;
     border: #e5e5e5 3px solid;
-    padding: 0 2px 10px 2px;
+    padding: 2px;
 }
 .like{
     margin: 8px 0;
@@ -357,20 +348,13 @@ button#button-addon8 {
     backface-visibility: hidden;
 }
 .reduce{
-    position: absolute;
-    left: 170px;
-    font-size: .75rem;
+    margin-bottom: -50px;
     text-align: center;
     width: 40px;
-    height: 30px;
-    line-height: .8125rem;
+    height: 50px;
     background: #ffd424e6;
+    float: right;
     backface-visibility: hidden;
-}
-.re-product p{
-    line-height: 14px;
-    font-size: .75rem;
-    padding: 12px;
 }
 .sponsor{
     width: 50px;
@@ -388,7 +372,7 @@ button#button-addon8 {
     color: white;
     margin: 0 .1875rem;
     padding: 0 0.0625rem;
-    margin: -15px 0 5px 10px;
+    margin-top: -15px;
     font-size: 10px;
     text-align: center;
     background-color: rgb(246, 145, 19);
@@ -401,8 +385,7 @@ button#button-addon8 {
 
 .text-recommend-product .right{
     color: #828282;
-    padding-right: 15px;
-    font-size: .75rem;
+    margin-right: 5px;
 }
 
 .re-product a{
@@ -413,8 +396,6 @@ button#button-addon8 {
     position: absolute;
     font-weight: bold;
     color:#ED3029;
-    padding-left: 5px;
-    font-size: 1rem;
 }
 .see-recommend a{
     border: 1px solid #00000017;
@@ -574,7 +555,5 @@ i.fa.fa-angle-right {
         max-width: 710px;
         margin-right: 6px;
     }
-    /* .item-slide:last-child{
-
-    } */
+    
 }
