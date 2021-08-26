@@ -126,7 +126,7 @@ body{
 /* icon search */
 input.form-control {
     padding: 10px;
-    margin-right: -69px;
+    margin-right: -70px;
 }
 .input-group-prepend {
     padding: 0 -2px;
@@ -180,11 +180,15 @@ button#button-addon8 {
     height: auto;
 }
 .item a{
-    font-size: 1.2rem;
     text-decoration: none;
     color: #000000;
     text-align: center;
-    font-size: .8rem;
+    font-size: .7rem;
+}
+.text-category{
+    width: 100%;
+    height: 3.125rem;
+    text-align: center;
 }
 .owl-item.active {
     background: white;
@@ -241,12 +245,11 @@ button#button-addon8 {
     margin: 11px 0 10px 35px;
 }
 /* Xu Hướng Tìm Kiếm */
-.sp-trend, .trending-pd{
+.sp-trend, .trending-pd, .trending{
     display: flex;
 }
 .sp-trend{
     border-right: 1px solid rgba(0,0,0,.05);
-    padding-right: .625rem;
     background: white;
 }
 .trending-pd a{
@@ -303,6 +306,10 @@ button#button-addon8 {
     font-size: 1.125rem;
     text-align: left;
 }
+.name-product-re p{
+    margin: 0 5px;
+    margin-bottom: 20px
+}
 .top {
     position: absolute;
     top: 0;
@@ -322,8 +329,6 @@ button#button-addon8 {
     display: flex;
     background: white;
 }
-
-
 /* t0day-recommend */
 .recommend{
     padding-top: 20px;}
@@ -400,6 +405,10 @@ button#button-addon8 {
 .re-product a{
     text-decoration: none;
     color: black;
+}
+.price-product{
+    font-size: .8rem;
+    margin-left: 5px;
 }
 .price{
     position: absolute;
@@ -550,6 +559,7 @@ i.fa.fa-angle-right {
     
     .item-slide:last-child{
         max-width: 500px;
+        
     }
     .item-slide:last-child .banner-top{
         margin-bottom: 3px;
@@ -564,5 +574,41 @@ i.fa.fa-angle-right {
         max-width: 710px;
         margin-right: 6px;
     }
-    
+    .item-slide:last-child{
+        width: 100%;
+        height: auto;
+    }
+    .bg-category .owl-nav {
+        display: block;
+        position: absolute;
+        top: 138px;
+        width: 100%;
+        color: #828282;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199){
+    .item-slide:first-child{
+       max-width: 590px;
+        margin-right: 8px;
+    }
+    .bg-category .owl-nav {
+        display: block;
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        color: #828282;
+    }
+}
+@media (min-width: 576px) and (max-width: 992px){
+    .price-product{
+        font-size: 7px;
+    }
+    .name-product-re p {
+        font-size: 12px;
+    }
+    input.form-control {
+        padding: 10px;
+        margin-right: -70px;
+        margin-left: 30px;
+    }
 }
