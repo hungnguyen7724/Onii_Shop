@@ -579,16 +579,15 @@ i.fa.fa-angle-right {
         height: auto;
     }
     .bg-category .owl-nav {
-        display: block;
         position: absolute;
-        top: 138px;
+        top: 100px;
         width: 100%;
         color: #828282;
     }
 }
 @media (min-width: 992px) and (max-width: 1199){
     .item-slide:first-child{
-       max-width: 590px;
+        max-width: 590px;
         margin-right: 8px;
     }
     .bg-category .owl-nav {
@@ -610,5 +609,20 @@ i.fa.fa-angle-right {
         padding: 10px;
         margin-right: -70px;
         margin-left: 30px;
+    }
+}
+@media (min-width:50px) and (max-width: 767px){
+    .slide .owl-theme .owl-nav {
+        position: absolute;
+        top: 90px;
+        width: 100%;
+        color: #828282;
+    }
+    .bg-category .owl-nav {
+        display: block;
+        position: absolute;
+        top: 110px;
+        width: 100%;
+        color: #828282;
     }
 }
