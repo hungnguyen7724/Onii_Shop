@@ -648,7 +648,7 @@ i.fa.fa-angle-right {
     .bg-category .owl-nav {
         display: block;
         position: absolute;
-        top: 116px;
+        top: 123px;
         width: 100%;
         color: #828282;
     }
@@ -682,7 +682,7 @@ i.fa.fa-angle-right {
         width: 100%;
     }
 }
-@media (min-width: 415px) and (max-width:549px){
+@media (min-width: 535px) and (max-width:549px){
     .input-group {
         position: relative;
         display: flex;
@@ -700,7 +700,53 @@ i.fa.fa-angle-right {
     .bg-category .owl-nav {
         display: block;
         position: absolute;
-        top: 145px;
+        top: 160px;
+        width: 100%;
+        color: #828282;
+    }
+}
+@media (min-width: 461px) and (max-width:534px){
+    .input-group {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 90%;
+        margin-left: 50px;
+    }
+    .slide .owl-theme .owl-nav {
+        position: absolute;
+        top: 8px;
+        width: 100%;
+        color: #828282;
+    }
+    .bg-category .owl-nav {
+        display: block;
+        position: absolute;
+        top: 113px;
+        width: 100%;
+        color: #828282;
+    }
+}
+@media (min-width: 415px) and (max-width:460px){
+    .input-group {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 90%;
+        margin-left: 50px;
+    }
+    .slide .owl-theme .owl-nav {
+        position: absolute;
+        top: 35px;
+        width: 100%;
+        color: #828282;
+    }
+    .bg-category .owl-nav {
+        display: block;
+        position: absolute;
+        top: 126px;
         width: 100%;
         color: #828282;
     }
@@ -725,7 +771,7 @@ i.fa.fa-angle-right {
     }
     .slide .owl-theme .owl-nav {
         position: absolute;
-        top: 25px;
+        top: 30px;
         width: 100%;
         color: #828282;
     }
@@ -814,12 +860,12 @@ i.fa.fa-angle-right {
     .bg-category .owl-nav {
         display: block;
         position: absolute;
-        top: 72px;
+        top: 93px;
         width: 100%;
         color: #828282;
     }
     .slide .owl-theme .owl-nav {
-        top: -8px;
+        top: 10px;
     }
     .cart {
         margin-bottom: -7px;
