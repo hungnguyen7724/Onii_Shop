@@ -6,7 +6,6 @@ body{
     height: 40px;
 }
 .bg-main-header {
-    border:  1px solid #e5e5e5;
     padding-bottom: 30px;
 }
 .main-header{
@@ -638,7 +637,7 @@ i.fa.fa-angle-right {
 }
 
 /* 411 Pixel2 */
-@media (min-width: 376px) and (max-width: 414px){
+@media (min-width: 376px) and (max-width: 480px){
     .text-category{
         font-size: 12px;
     }
