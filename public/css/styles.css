@@ -1,13 +1,14 @@
 body{
-    overflow-x: hidden;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .top-header{
     background: #ED3029;
     height: 40px;
-}
-.bg-main-header {
-    padding-bottom: 30px;
 }
 .main-header{
     padding: 30px 0;
@@ -69,7 +70,6 @@ body{
     display: flex;
 }
 .item-slide:last-child img{
-    overflow-x: hidden;
     max-width: 100%;
     width: 100%;
     top: 50%;
@@ -81,7 +81,6 @@ body{
     vertical-align: bottom;
 }
 .item-slide:last-child{
-    overflow-x: hidden;
     position: relative;
     max-width:400px;
     width:100%;
@@ -132,12 +131,11 @@ input.form-control {
     margin-right: -70px;
 }
 .input-group-prepend {
-    padding: 0 -2px;
     margin-top: 4px;
     padding-right: 60px;
 }
 button#button-addon8 {
-    margin-right: -30px;
+    margin: 5px -23px 5px -5px;
     padding: 6px 23px;
 }
 /* Content */
@@ -227,7 +225,6 @@ button#button-addon8 {
     width: 100%;
 }
 .flash-sale .owl-carousel .owl-item img {
-    overflow-x: hidden;
     width: 100%;
     height: 180px;
     margin-left: 13px;
@@ -329,7 +326,6 @@ button#button-addon8 {
     background-image: url(../img/top.png);
 }
 .top-search .owl-carousel .owl-item img {
-    overflow-x: hidden;
     width: 100%;
     height: 180px;
 }
@@ -640,12 +636,6 @@ i.fa.fa-angle-right {
 
 /* 411 Pixel2 */
 @media (min-width: 375px) and (max-width: 480px){
-    html {
-        margin-right: -10px;
-    }
-    .body {
-        overflow-x: hidden;
-    }
     .text-category{
         font-size: 12px;
     }
@@ -660,9 +650,6 @@ i.fa.fa-angle-right {
 
 
 @media only screen and (max-width: 280px){
-    .body {
-        overflow-x: hidden;
-    }
     .text-category {
         font-size: 8px;
         width: 100%;
@@ -680,12 +667,6 @@ i.fa.fa-angle-right {
 }
 
 @media only screen and (max-width:991px){
-    html {
-        margin-right: -10px;
-    }
-    .body {
-        overflow-x: hidden;
-    }
     .main-header, .top-header{
         display: none;
     }
@@ -701,11 +682,11 @@ i.fa.fa-angle-right {
         text-align: center;
         background-image: url('../img/oni_web.png');
     }
-    .cart-2{
+    .cart-2 {
         position: relative;
         top: 2px;
+        left: 15px;
         font-size: 30px;
-        float: right;
     }
     .cart-2 i{
         color: white;
