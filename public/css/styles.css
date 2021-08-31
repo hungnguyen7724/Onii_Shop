@@ -638,8 +638,18 @@ i.fa.fa-angle-right {
 
 /* 411 Pixel2 */
 @media (min-width: 376px) and (max-width: 480px){
+    .container {
+        max-width: 100px;
+    }
     .text-category{
         font-size: 12px;
+    }
+    .sold {
+        border-radius: 10px;
+        color: white;
+        background: #EE4623;
+        text-align: center;
+        margin: 10px -11px 10px 20px;
     }
 }
 
