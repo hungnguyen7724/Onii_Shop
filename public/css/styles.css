@@ -135,8 +135,8 @@ input.form-control {
     padding-right: 70px;
 }
 button#button-addon8 {
-    margin: 5px -52px 5px -5px;
-    padding: 5px 20px;
+    margin: 5px -23px 5px -5px;
+    padding: 6px 23px;
 }
 /* Content */
 .cover-content{
@@ -626,10 +626,6 @@ i.fa.fa-angle-right {
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
-    .cart{
-        position: relative;
-        left: 5px;
-    }
     .price-product{
         font-size: 7px;
     }
@@ -689,13 +685,13 @@ i.fa.fa-angle-right {
     .logo-2 .cart {
         position: relative;
         font-size: 30px;
-        top: 5px;
+        top: 7px;
     }
-    .cart-2 {
+    .cart-2 {gdvxc
         position: relative;
-        top: 12px;
+        top: 15px;
         left: 15px;
-        font-size: 32px;
+        font-size: 30px;
     }
     .cart-2 i{
         color: white;
