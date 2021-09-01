@@ -276,7 +276,7 @@ button#button-addon8 {
     color: #222;
     font-weight: 500;
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: .9rem;
 }
 .sp-trend2{
     text-overflow: ellipsis;
@@ -331,8 +331,9 @@ button#button-addon8 {
     background-image: url(../img/top.png);
 }
 .top-search .owl-carousel .owl-item img {
+    padding: 20px;
     width: 100%;
-    height: 180px;
+    height: auto;
 }
 .search-home
 {
@@ -650,6 +651,11 @@ i.fa.fa-angle-right {
     }
 }
 
+@media only screen and (max-width:406px){
+    .depnam{
+        display: none;
+    }
+}
 /* Iphone X 375 */
 @media (min-width:335px) and (max-width: 375px){
     .text-category {
@@ -658,6 +664,7 @@ i.fa.fa-angle-right {
         height: 3.7rem;
         text-align: center;
     }
+  
 }
 
 @media only screen and (max-width: 280px){
@@ -678,6 +685,7 @@ i.fa.fa-angle-right {
 }
 
 @media only screen and (max-width:991px){
+   
     .main-header, .top-header{
         display: none;
     }
@@ -701,7 +709,10 @@ i.fa.fa-angle-right {
     .cart-2 i{
         color: white;
     }
-    .slide .owl-theme .owl-nav, .bg-category .owl-nav {
+    .slide .owl-theme .owl-nav, .bg-category .owl-nav, .top-search .owl-theme .owl-nav, .flash-sale .owl-theme .owl-nav {
         display: none;
+    }
+    .top-search .owl-carousel .owl-item img {
+        width: 100%;
     }
 } 
