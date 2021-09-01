@@ -125,7 +125,7 @@ html, body {
 }
 .cart {
     position: relative;
-    top: 5px;
+    top: -3px;
     font-size: 35px;
     margin-left: -15px;
 } 
@@ -695,7 +695,7 @@ i.fa.fa-angle-right {
     }
     .cart-2{
         position: relative;
-        top: 19px;
+        top: 2px;
         font-size: 30px;
     }
     .cart-2 i{
