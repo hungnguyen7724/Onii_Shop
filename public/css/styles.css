@@ -10,7 +10,6 @@ html, body {
     height: 40px;
 }
 .bg-main-header {
-    border:  1px solid #e5e5e5;
     padding-bottom: 30px;
 }
 .main-header{
@@ -133,11 +132,11 @@ html, body {
 
 /* icon search */
 input.form-control {
-    padding: 15px;
+    padding: 11px;
     margin-right: -70px;
 }
 .input-group-prepend {
-    margin-top: 10px;
+    margin-top: 5px;
     padding-right: 60px;
 }
 button#button-addon8 {
@@ -375,11 +374,12 @@ button#button-addon8 {
 .reduce{
     margin-bottom: -50px;
     text-align: center;
-    width: 40px;
-    height: 50px;
+    font-size: .75rem;
+    position: relative;
     background: #ffd424e6;
     float: right;
     backface-visibility: hidden;
+    right: 0;
 }
 .sponsor{
     width: 50px;
