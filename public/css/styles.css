@@ -639,6 +639,9 @@ i.fa.fa-angle-right {
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
+    .item-slide:last-child{
+        display:none
+        }
     .price-product{
         font-size: 7px;
     }
@@ -691,7 +694,10 @@ i.fa.fa-angle-right {
 }
 
 @media only screen and (max-width: 991px){
-   
+    .full-slide{
+        flex-direction: column;
+    }
+    
     .main-header, .top-header{
         display: none;
     }
@@ -721,4 +727,4 @@ i.fa.fa-angle-right {
     .top-search .owl-carousel .owl-item img {
         width: 100%;
     }
-} 
+}
