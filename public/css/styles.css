@@ -276,14 +276,17 @@ button#button-addon8 {
     color: #222;
     font-weight: 500;
     text-transform: capitalize;
-    font-size: .9rem;
+    font-size: 12px;
 }
 .sp-trend2{
     text-overflow: ellipsis;
     white-space: nowrap;
     margin-top: .3125rem;
     color: #757575;
-    font-size: .8125rem;
+    font-size: 10px;
+}
+.sp-trend img{
+    max-width: 85%;
 }
 /* Tìm kiếm hàng đầu */
 .cover-search{
@@ -642,6 +645,9 @@ i.fa.fa-angle-right {
     .name-product-re p {
         font-size: 12px;
     }
+    .trend{
+        padding: 0;
+    }
 }
 
 /* 411 Pixel2 */
@@ -684,7 +690,7 @@ i.fa.fa-angle-right {
     } 
 }
 
-@media only screen and (max-width:991px){
+@media only screen and (max-width: 991px){
    
     .main-header, .top-header{
         display: none;
@@ -697,7 +703,7 @@ i.fa.fa-angle-right {
         display: none;
     }
     .logo-2{
-        padding: 30px 0;
+        padding: 15px 0;
         text-align: center;
         background-image: url('../img/oni_web.png');
     }
