@@ -13,7 +13,6 @@ html, body {
     padding-bottom: 30px;
 }
 .main-header{
-    padding: 30px 0;
     background-image: url('../img/oni_web.png');
 }
 .main-header img{
@@ -24,7 +23,6 @@ html, body {
     display: flex;
     list-style-type: none;
     padding: 10px 0;
-    margin-left: 4px;
     color: white;
 }
 .main-header-top>ul>li{
@@ -43,9 +41,9 @@ html, body {
         text-align: left;
 }
 .top-logo{
-    margin-left: -16px;
-    width: 40px;
-    height: 45px;
+    position: relative;
+    left: -16px;
+    width: inherit;
     border-radius: 10px;
     background: #ee4d2d;
     border: white;
@@ -108,8 +106,6 @@ html, body {
     color: #828282;
 }
 .slide .owl-carousel .owl-nav button.owl-prev {
-    margin-right: 0;
-    text-align: justify;
     border-radius: 50%;
     left: -5px;
     position: absolute;
@@ -125,9 +121,9 @@ html, body {
 }
 .cart {
     position: relative;
+    right: 15px;
     top: -3px;
     font-size: 35px;
-    margin-left: -15px;
 } 
 
 /* icon search */
@@ -136,12 +132,11 @@ input.form-control {
     margin-right: -70px;
 }
 .input-group-prepend {
-    margin-top: 5px;
+    padding-top: 5px;
     padding-right: 60px;
 }
 button#button-addon8 {
-    margin-right: -30px;
-    padding: 6px 23px;
+    padding: 6px 24px;
 }
 /* Content */
 .cover-content{
@@ -201,23 +196,15 @@ button#button-addon8 {
 .owl-carousel .owl-nav button.owl-next{
     position: absolute;
     right: -14px;
-
 }
 .owl-carousel .owl-nav button.owl-prev {
-    margin-right: 0;
-    text-align: justify;
-    border-radius: 50%;
-    left: -14px;
     position: absolute;
+    left: -14px;
 }
 .category-product{
-    margin-left: 0;
     margin-right: -10px;
 }
 /* Flash sale */
-.fsale{
-    margin: 0 14px 0 -10px;
-}
 .flash-sale .owl-theme .owl-nav {
     position: absolute;
     top: 70px;
@@ -240,13 +227,11 @@ button#button-addon8 {
     font-weight: bold;
 }
 .flash-sale h3{
-    padding: 10px 0;
-    margin-left: 10px;
+    padding: 10px;
 }
 .item a{
     text-decoration: none;
 }
-
 .sold{
     border-radius: 10px;
     color: white;
@@ -281,7 +266,7 @@ button#button-addon8 {
 .sp-trend2{
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin-top: .3125rem;
+    line-height: 2.5;
     color: #757575;
     font-size: 10px;
 }
@@ -320,8 +305,8 @@ button#button-addon8 {
     text-align: left;
 }
 .name-product-re p{
-    margin: 0 5px;
-    margin-bottom: 20px
+    position: relative;
+    left: 5px;
 }
 .top {
     position: absolute;
@@ -364,14 +349,15 @@ button#button-addon8 {
     padding: 2px;
 }
 .like{
-    margin: 8px 0;
+       position: relative;
+    top: 10px;
     width: 70px;
     height: auto;
     float: left;
     font-size: .75rem;
     line-height: .875rem;
     text-align: center;
-    margin-bottom: -50px;
+    margin-bottom: -15px;
     background: #ee4d2d;
     backface-visibility: hidden;
 }
@@ -386,15 +372,15 @@ button#button-addon8 {
     right: 0;
 }
 .sponsor{
+    position: relative;
+    top: -30px;
+    right: 10px;
     width: 50px;
     text-align: center;
     float: right;
-    margin-top: -25px;
-    margin-right: 8px;
     border-radius: 2px;
     background: rgba(0,0,0,.3);
     font-size: .75rem;
-    backface-visibility: hidden;
 }
 .discount{
     width: 50px;
@@ -413,17 +399,18 @@ button#button-addon8 {
 }
 
 .text-recommend-product .right{
+    right: 5px;
     color: #828282;
-    margin-right: 5px;
+    position: relative;
 }
-
 .re-product a{
     text-decoration: none;
     color: black;
 }
 .price-product{
+    position: relative;
     font-size: .8rem;
-    margin-left: 5px;
+    left: 5px;
 }
 .price{
     position: absolute;
@@ -462,29 +449,30 @@ footer .img-fluid{
     width: 25%;
 }
 .care {
-    margin-left: 20px;
     padding-top: 40px;
+}
+.care p{
+    font-weight: 700;
+    margin: .625rem 0 .125rem;
+    padding: .125rem 0;
+    text-transform: uppercase;
 }
 .care a{
     text-decoration: none;
     color: rgba(0,0,0,.54);
     display: flex;
-    line-height: 2;
+    line-height: 1.5;
+    font-size: 12px;
 }
 .fb-is-lid{
-    margin: 30px 0px;
+    padding: 30px 10px;
 }
 .fb-is-lid i {
-    font-size: 20px;
-    margin: 8px 0px;
-}
-.contact p{
-    font-size: 1rem;
-    font-weight: normal;
-    color: black;
+    font-size: 15px;
+    line-height: 2;
 }
 .register img{
-    margin: 5px 10px;
+    padding: 10px;
     width: 180px;
     height: auto;
 }
@@ -497,21 +485,25 @@ footer .img-fluid{
     text-decoration: none;
     font-size: 0.8rem;
 }
-
-.main-poicy{
+.main-poicy a,.security p{
+    color: rgba(0,0,0,.54);
+    font-size: 12px;
+}
+.main-poicy {
     padding: 15px 0;
     border-top: #ededed .5px solid;
     border-bottom: #ededed .5px solid;
     text-align: center;
+    color: rgba(0,0,0,.54);
 }
 .care a:hover, .main-poicy a:hover{
     color: #ee4d2d;
 }
 .security p{
+    font-size: .75rem;
+    font-weight: 700;
+    color: rgba(0,0,0,.54);
     text-align: center;
-    color: black;
-    font-weight: normal;
-    margin-top: -25px;
 }
 
 .shipping-unit-img{
@@ -688,7 +680,6 @@ i.fa.fa-angle-right {
         color: white;
         background: #EE4623;
         text-align: center;
-        margin: 11px 0 10px 30px;
         font-size: 7px;
     } 
 }
@@ -727,4 +718,13 @@ i.fa.fa-angle-right {
     .top-search .owl-carousel .owl-item img {
         width: 100%;
     }
-}
+        @media only screen and (max-width: 575px){
+            .content-re {
+                max-width: 50%;
+                background: #fff;
+                position: relative;
+                border: #e5e5e5 3px solid;
+                padding: 2px;
+        }    
+    }
+} 
