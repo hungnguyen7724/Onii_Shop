@@ -718,13 +718,11 @@ i.fa.fa-angle-right {
     .top-search .owl-carousel .owl-item img {
         width: 100%;
     }
-        @media only screen and (max-width: 575px){
-            .content-re {
-                max-width: 50%;
-                background: #fff;
-                position: relative;
-                border: #e5e5e5 3px solid;
-                padding: 2px;
-        }    
+    .content-re {
+        max-width: 50%;
+        background: #fff;
+        position: relative;
+        border: #e5e5e5 3px solid;
+        padding: 2px;
     }
 } 
