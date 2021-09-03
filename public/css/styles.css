@@ -256,10 +256,6 @@ button#button-addon8 {
     text-decoration: none;
     color: #222;
 }
-.trend{
-    padding:1.25rem .625rem 0 0.25rem;
-}
-
 .sp-trend1{
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -274,9 +270,6 @@ button#button-addon8 {
     line-height: 2.5;
     color: #757575;
     font-size: 10px;
-}
-.sp-trend img{
-    max-width: 85%;
 }
 /* Tìm kiếm hàng đầu */
 .cover-search{
@@ -698,7 +691,7 @@ i.fa.fa-angle-right {
         display: none;
     }
     .logo-2{
-        padding: 15px 0;
+        padding: 15px 15px 9px 0;
         text-align: end;
         background-image: url('../img/oni_web.png');
     }
@@ -729,5 +722,4 @@ i.fa.fa-angle-right {
         top: 5px;
         font-size: 10px;
     }  
-   
 } 
