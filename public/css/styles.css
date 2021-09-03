@@ -10,6 +10,7 @@ html, body {
     height: 40px;
 }
 .bg-main-header {
+    font-size: 13px;
     padding-bottom: 30px;
 }
 .main-header{
@@ -247,6 +248,7 @@ button#button-addon8 {
     display: flex;
 }
 .sp-trend{
+    padding: 20px 0;
     border-right: 1px solid rgba(0,0,0,.05);
     background: white;
 }
@@ -338,11 +340,13 @@ button#button-addon8 {
     background: #fff;
 }
 #bd-recommend{
-    width: 213px;
+    position: relative;
+    left: 5px;
     color: #ee4d2d;
     padding: 10px 0;
-    text-align: center;
+    text-align: left;
     border-bottom: #ee4d2d 3px solid;
+}
 }
 .recommend h3{ color: #828282;}
 .content-re{
@@ -601,9 +605,6 @@ i.fa.fa-angle-right {
         width: 100%;
         color: #828282;
     }
-    /* .container, .container-md, .container-sm {
-        max-width: 100%;
-    } */
 }
 @media (min-width: 1200px) and (max-width: 1399.98px){
     .logo-2{display: none;}
@@ -646,7 +647,9 @@ i.fa.fa-angle-right {
         padding: 0;
     }
 }
-
+@media only screen and (max-width: 767px){
+  .depnam{display: none;}
+}
 /* 411 Pixel2 */
 @media (min-width: 376px) and (max-width: 414px){
     .text-category{
@@ -654,11 +657,6 @@ i.fa.fa-angle-right {
     }
 }
 
-@media only screen and (max-width:406px){
-    .depnam{
-        display: none;
-    }
-}
 /* Iphone X 375 */
 @media (min-width:335px) and (max-width: 375px){
     .text-category {
@@ -667,7 +665,7 @@ i.fa.fa-angle-right {
         height: 3.7rem;
         text-align: center;
     }
-  
+   
 }
 
 @media only screen and (max-width: 280px){
@@ -706,16 +704,17 @@ i.fa.fa-angle-right {
     }
     .cart-2{
         position: relative;
-        top: 2px;
-        font-size: 30px;
+        top: 15px;
+        font-size: 15px;
     }
     .cart-2 i{
         color: white;
     }
-    .slide .owl-theme .owl-nav, .bg-category .owl-nav, .top-search .owl-theme .owl-nav, .flash-sale .owl-theme .owl-nav {
+    .slide .owl-theme .owl-nav, .bg-category .owl-nav,
+    .top-search .owl-theme .owl-nav, .flash-sale .owl-theme .owl-nav {
         display: none;
     }
-    .top-search .owl-carousel .owl-item img {
+    .top-search .owl-carousel .owl-item img {   
         width: 100%;
     }
     .content-re {
@@ -730,4 +729,5 @@ i.fa.fa-angle-right {
         top: 5px;
         font-size: 10px;
     }  
+   
 } 
