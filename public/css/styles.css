@@ -122,9 +122,9 @@ html, body {
 }
 .cart {
     position: relative;
-    top: -3px;
-    font-size: 35px;
-} 
+    top: 6px;
+}
+
 
 /* icon search */
 input.form-control {
@@ -244,7 +244,11 @@ button#button-addon8 {
     margin: 11px 0 10px 35px;
 }
 /* Xu Hướng Tìm Kiếm */
-.sp-trend, .trending-pd, .trending{
+.trending-pd, .trending,.trend{
+    display: flex;
+}
+
+.trend-content{
     display: flex;
 }
 .sp-trend{
@@ -257,6 +261,7 @@ button#button-addon8 {
     color: #222;
 }
 .sp-trend1{
+   
     text-overflow: ellipsis;
     white-space: nowrap;
     color: #222;
@@ -640,13 +645,26 @@ i.fa.fa-angle-right {
         padding: 0;
     }
 }
-@media only screen and (max-width: 767px){
-  .depnam{display: none;}
-}
+
 /* 411 Pixel2 */
 @media (min-width: 376px) and (max-width: 414px){
     .text-category{
         font-size: 12px;
+    }
+    .sp-trend1 {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #222;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 7px;
+    }
+    .sp-trend2 {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        line-height: 2.5;
+        color: #757575;
+        font-size: 6px;
     }
 }
 
@@ -658,7 +676,20 @@ i.fa.fa-angle-right {
         height: 3.7rem;
         text-align: center;
     }
-   
+    .sp-trend1 {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #222;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 7px;
+    }
+    .sp-trend2 {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        line-height: 2.5;
+        color: #757575;
+        font-size: 6px;}
 }
 
 @media only screen and (max-width: 280px){
@@ -722,4 +753,5 @@ i.fa.fa-angle-right {
         top: 5px;
         font-size: 10px;
     }  
+   
 } 
