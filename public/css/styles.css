@@ -125,21 +125,18 @@ html, body {
     top: 6px;
 }
 
-
 /* icon search */
 input.form-control {
-    padding: 11px;
+    padding: 10px;
     margin-right: -70px;
-}
-.input-group-prepend {
-    position: relative;
-    top: 5px;
 }
 .logo-2 .input-group .btn {
     position: absolute;
     z-index: 2;
 }
 button#button-addon8 {
+    position: relative;
+    top: 4px;
     padding: 6px 24px;
 }
 /* Content */
@@ -706,6 +703,7 @@ i.fa.fa-angle-right {
         text-align: center;
         font-size: 7px;
     } 
+  
 }
 
 @media only screen and (max-width: 991px){
@@ -750,7 +748,8 @@ i.fa.fa-angle-right {
     }  
     button#button-addon8 {
         position: relative;
-        top: 5px;
+        top: 4px;
+        right: 7px;
         font-size: 10px;
     }  
     i.fa.fa-search {
@@ -759,5 +758,6 @@ i.fa.fa-angle-right {
     .input-group-prepend {
         position: relative;
         top: 4px;
+        left: 7px;
     }
 } 
