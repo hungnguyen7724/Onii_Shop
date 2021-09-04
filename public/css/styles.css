@@ -726,10 +726,10 @@ i.fa.fa-angle-right {
         text-align: end;
         background-image: url('../img/oni_web.png');
     }
-    .cart-2{
+    .cart-2 {
         position: relative;
-        top: 15px;
-        font-size: 15px;
+        top: 8px;
+        font-size: 25px;
     }
     .cart-2 i{
         color: white;
@@ -753,5 +753,11 @@ i.fa.fa-angle-right {
         top: 5px;
         font-size: 10px;
     }  
-   
+    i.fa.fa-search {
+        font-size: 15px;
+    }
+    .input-group-prepend {
+        position: relative;
+        top: 4px;
+    }
 } 
