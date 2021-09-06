@@ -653,7 +653,7 @@ i.fa.fa-angle-right {
 }
 
 /* 411 Pixel2 */
-@media (min-width: 376px) and (max-width: 414px){
+@media only screen  and (max-width: 414px){
     .text-category{
         font-size: 12px;
     }
@@ -671,6 +671,12 @@ i.fa.fa-angle-right {
         line-height: 2.5;
         color: #757575;
         font-size: 6px;
+    }
+    .cart-2 {
+        position: relative;
+        top: 8px;
+        font-size: 25px;
+        padding-left: 15px;
     }
 }
 
@@ -697,9 +703,9 @@ i.fa.fa-angle-right {
         color: #757575;
         font-size: 5px;
     }
-    input.form-control {
-        padding-right: 50px;
-    }    
+    input.form-control{
+        max-width: 90%;
+    }
 }
 
 @media only screen and (max-width: 280px){
@@ -719,23 +725,20 @@ i.fa.fa-angle-right {
     
   
 }
-@media only screen and (max-width: 575.98px){
+
+@media (min-width:376px) and (max-width: 575.98px){
+    input.form-control{
+        max-width: 90%;
+    }
     .content-lg2{
         display: flex;
     }
-   
     .cart {
         position: relative;
         top: 6px;
-        padding-left: 15px;
         padding-right: 15px;
     }
-    .input-group {
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: stretch;
-    }
+   
 
 }
 @media only screen and (max-width: 991px){
