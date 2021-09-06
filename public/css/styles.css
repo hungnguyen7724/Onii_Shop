@@ -139,6 +139,9 @@ button#button-addon8 {
     top: 4px;
     padding: 6px 24px;
 }
+.content-lg2{
+    display: flex;
+}
 /* Content */
 .cover-content{
     background: #E5E5E5;
@@ -479,7 +482,6 @@ footer .img-fluid{
 
 /* policy chinh sach */
 .policy a{
-
     padding: 0 10px;
     color: black;
     font-weight: normal;
@@ -641,6 +643,9 @@ i.fa.fa-angle-right {
     .trend{
         padding: 0;
     }
+    .logo{
+        display: none;
+    }
 }
 
 /* 411 Pixel2 */
@@ -666,7 +671,7 @@ i.fa.fa-angle-right {
 }
 
 /* Iphone X 375 */
-@media (min-width:335px) and (max-width: 375px){
+@media (min-width:281px) and (max-width: 375px){
     .text-category {
         font-size: 10px;
         width: 100%;
@@ -703,9 +708,24 @@ i.fa.fa-angle-right {
         text-align: center;
         font-size: 7px;
     } 
+    
   
 }
+@media only screen and (max-width: 575.98px){
+    .content-lg2{
+        display: flex;
+    }
+    input.form-control {
+        padding-right: 215px;
+    }
+    .cart {
+        position: relative;
+        top: 6px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
+}
 @media only screen and (max-width: 991px){
     .full-slide{
         flex-direction: column;
@@ -716,11 +736,12 @@ i.fa.fa-angle-right {
     .slide {
         padding: 13px 0 5px 0;
     }
-    .logo{
-        display: none;
+    button#button-addon8{
+        border: none;
     }
+  
     .logo-2{
-        padding: 15px 15px 9px 0;
+        padding: 10px 15px 10px 0;
         text-align: end;
         background-image: url('../img/oni_web.png');
     }
@@ -748,7 +769,7 @@ i.fa.fa-angle-right {
     }  
     button#button-addon8 {
         position: relative;
-        top: 4px;
+        top: 7px;
         right: 9px;
         font-size: 10px;
     }  
