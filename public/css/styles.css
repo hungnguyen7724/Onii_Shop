@@ -650,6 +650,7 @@ i.fa.fa-angle-right {
     .logo{
         display: none;
     }
+   
 }
 
 /* 411 Pixel2 */
@@ -675,6 +676,7 @@ i.fa.fa-angle-right {
     .cart-2 {
         position: relative;
         top: 8px;
+        right: 2px;
         font-size: 25px;
         padding-left: 15px;
     }
@@ -704,7 +706,12 @@ i.fa.fa-angle-right {
         font-size: 5px;
     }
     input.form-control{
-        max-width: 90%;
+        max-width: 94%;
+    }
+    .cart {
+        position: relative;
+        top: 6px;
+        left: 2px;
     }
 }
 
@@ -722,13 +729,11 @@ i.fa.fa-angle-right {
         text-align: center;
         font-size: 7px;
     } 
-    
-  
 }
 
 @media (min-width:376px) and (max-width: 575.98px){
     input.form-control{
-        max-width: 90%;
+        max-width: 99%;
     }
     .content-lg2{
         display: flex;
@@ -736,7 +741,6 @@ i.fa.fa-angle-right {
     .cart {
         position: relative;
         top: 6px;
-        padding-right: 15px;
     }
    
 
@@ -795,5 +799,8 @@ i.fa.fa-angle-right {
         position: relative;
         top: 4px;
         left: 7px;
+    }
+    input.form-control{
+        max-width: 98%;
     }
 } 
