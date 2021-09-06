@@ -695,7 +695,11 @@ i.fa.fa-angle-right {
         white-space: nowrap;
         line-height: 2.5;
         color: #757575;
-        font-size: 5px;}
+        font-size: 5px;
+    }
+    input.form-control {
+        padding-right: 50px;
+    }    
 }
 
 @media only screen and (max-width: 280px){
@@ -719,14 +723,18 @@ i.fa.fa-angle-right {
     .content-lg2{
         display: flex;
     }
-    input.form-control {
-        padding-right: 215px;
-    }
+   
     .cart {
         position: relative;
         top: 6px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .input-group {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
     }
 
 }
