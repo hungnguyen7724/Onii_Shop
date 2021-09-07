@@ -1,4 +1,5 @@
 body{
+    font-size: .875rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 html, body {
@@ -120,9 +121,13 @@ html, body {
 .main-header-top.right {
    float: right;
 }
+.logo-2 .cart{
+    position: relative;
+    top: 0px;
+}
 .cart {
     position: relative;
-    top: 6px;
+    top: 5px;
 }
 
 /* icon search */
@@ -144,7 +149,7 @@ button#button-addon8 {
 }
 /* Content */
 .cover-content{
-    background: #E5E5E5;
+    background: #f5f5f5;
 }
 /* Category */
 .bg-category .owl-stage-outer {
@@ -221,9 +226,10 @@ button#button-addon8 {
     width: 100%;
 }
 .flash-sale .owl-carousel .owl-item img {
+    position: relative;
+    left: 9px;
     width: 100%;
-    height: 180px;
-    margin-left: 13px;
+    height: 160px;
 }
 .flash-sale{
     padding:20px 0;
@@ -244,7 +250,7 @@ button#button-addon8 {
     margin: 10px 0 10px 25px;
 }
 /* Xu Hướng Tìm Kiếm */
-.trending-pd, .trending,.trend{
+/* .trending-pd, .trending,.trend{
     display: flex;
 }
 
@@ -275,7 +281,51 @@ button#button-addon8 {
     line-height: 2.5;
     color: #757575;
     font-size: 10px;
+} */
+.trend a{
+    text-decoration: none;
+    color: black;
 }
+.bg-trend{
+    background: white;
+}
+.sp12{
+    position: relative;
+    top: 60px;
+    line-height: 1.5rem;
+}
+.sp-right{
+    width:100%;
+    background: white;
+}
+.sp-left{
+    width: 50%;
+    background: white;
+    position: relative;
+    left: 5px;
+}
+.sp-xuhuong{
+    display: flex;
+}
+.sp1{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #222;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.sp2{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: .3125rem;
+    color: #757575;
+    font-size: .8125rem;
+}
+
+
 /* Tìm kiếm hàng đầu */
 .cover-search{
     padding-top: 20px;
@@ -326,7 +376,7 @@ button#button-addon8 {
     background-image: url(../img/top.png);
 }
 .top-search .owl-carousel .owl-item img {
-    padding: 20px;
+    padding: 40px;
     width: 100%;
     height: auto;
 }
@@ -349,7 +399,7 @@ button#button-addon8 {
     text-align: left;
     border-bottom: #ee4d2d 3px solid;
 }
-}
+
 .recommend h3{ color: #828282;}
 .content-re{
     background: #fff;
@@ -609,6 +659,11 @@ i.fa.fa-angle-right {
 }
 @media (min-width: 1200px) and (max-width: 1399.98px){
     .logo-2{display: none;}
+    .sp12 {
+        position: relative;
+        top: 50px;
+        line-height: 1.5rem;
+    }
 }
 /*  */
 @media (min-width: 992px) and (max-width: 1199px){
@@ -633,6 +688,11 @@ i.fa.fa-angle-right {
     .logo-2{
         display: none;
     }
+    .sp12 {
+        position: relative;
+        top: 30px;
+        line-height: 1.5rem;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .item-slide:last-child{
@@ -650,7 +710,11 @@ i.fa.fa-angle-right {
     .logo{
         display: none;
     }
-   
+    .sp12 {
+        position: relative;
+        top: 13px;
+        line-height: 1.5rem;
+    }
 }
 
 /* 411 Pixel2 */
@@ -710,7 +774,7 @@ i.fa.fa-angle-right {
     }
     .cart {
         position: relative;
-        top: 6px;
+        top: 0px;
         left: 2px;
     }
 }
@@ -742,8 +806,17 @@ i.fa.fa-angle-right {
         position: relative;
         top: 6px;
     }
-   
-
+    .sp-right {
+    width: 50%;
+    background: white;
+    }
+    .sp-left {
+        width: 50%;
+        background: white;
+        position: relative;
+        top: 35px;
+        left: 5px;
+    }
 }
 @media only screen and (max-width: 991px){
     .full-slide{
@@ -760,13 +833,13 @@ i.fa.fa-angle-right {
     }
   
     .logo-2{
-        padding: 10px 15px 10px 0;
+        padding: 10px 5px 10px 0;
         text-align: end;
         background-image: url('../img/oni_web.png');
     }
     .cart-2 {
         position: relative;
-        top: 8px;
+        top: -5px;
         font-size: 25px;
     }
     .cart-2 i{
@@ -788,8 +861,8 @@ i.fa.fa-angle-right {
     }  
     button#button-addon8 {
         position: relative;
-        top: 7px;
-        right: 9px;
+        top: -3px;
+        right: -8px;
         font-size: 10px;
     }  
     i.fa.fa-search {
@@ -802,5 +875,8 @@ i.fa.fa-angle-right {
     }
     input.form-control{
         max-width: 98%;
+    }
+    .logo-2 input.form-control {
+        height: 28px;
     }
 } 
