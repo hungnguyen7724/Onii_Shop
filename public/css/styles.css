@@ -433,8 +433,9 @@ button#button-addon8 {
 }
 .price-product{
     position: relative;
-    font-size: .7rem;
+    font-size: 14px;
     left: 5px;
+    padding-right:5px ;
 }
 .price{
     position: absolute;
@@ -666,7 +667,7 @@ i.fa.fa-angle-right {
         display:none
         }
     .price-product{
-        font-size: 7px;
+        font-size: 10px;
     }
     .name-product-re p {
         font-size: 12px;
@@ -744,6 +745,9 @@ i.fa.fa-angle-right {
         top: 0px;
         left: 2px;
     }
+    .price-product {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 280px){
@@ -798,8 +802,9 @@ i.fa.fa-angle-right {
     button#button-addon8{
         border: none;
     }
+  
     .logo-2{
-        padding: 20px 7px 8px 0;
+        padding: 20px 7px 10px 0;
         text-align: end;
         background-image: url('../img/oni_web.png');
     }
@@ -817,6 +822,9 @@ i.fa.fa-angle-right {
     }
     .top-search .owl-carousel .owl-item img {   
         width: 100%;
+    }
+    input.form-control{
+        max-width: 98%;
     }
     .content-re {
         max-width: 50%;
@@ -839,10 +847,9 @@ i.fa.fa-angle-right {
         top: 4px;
         left: 7px;
     }
-    input.form-control{
-        max-width: 98%;
-    }
+    
     .logo-2 input.form-control {
         height: 28px;
     }
+   
 } 
