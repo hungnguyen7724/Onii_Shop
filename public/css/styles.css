@@ -250,38 +250,7 @@ button#button-addon8 {
     margin: 10px 0 10px 25px;
 }
 /* Xu Hướng Tìm Kiếm */
-/* .trending-pd, .trending,.trend{
-    display: flex;
-}
 
-.trend-content{
-    display: flex;
-}
-.sp-trend{
-    padding: 20px 0;
-    border-right: 1px solid rgba(0,0,0,.05);
-    background: white;
-}
-.trending-pd a{
-    text-decoration: none;
-    color: #222;
-}
-.sp-trend1{
-   
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    color: #222;
-    font-weight: 500;
-    text-transform: capitalize;
-    font-size: 12px;
-}
-.sp-trend2{
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    line-height: 2.5;
-    color: #757575;
-    font-size: 10px;
-} */
 .trend a{
     text-decoration: none;
     color: black;
@@ -289,7 +258,7 @@ button#button-addon8 {
 .bg-trend{
     background: white;
 }
-.sp12{
+.sp12-trending{
     position: relative;
     top: 60px;
     line-height: 1.5rem;
@@ -304,10 +273,10 @@ button#button-addon8 {
     position: relative;
     left: 5px;
 }
-.sp-xuhuong{
+.trending-product{
     display: flex;
 }
-.sp1{
+.name-pro-trend{
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -316,7 +285,7 @@ button#button-addon8 {
     text-transform: capitalize;
     font-size: 14px;
 }
-.sp2{
+.quantity-trend{
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -324,7 +293,6 @@ button#button-addon8 {
     color: #757575;
     font-size: .8125rem;
 }
-
 
 /* Tìm kiếm hàng đầu */
 .cover-search{
@@ -344,7 +312,7 @@ button#button-addon8 {
     color: #828282;
 }
 
-#sold-month{
+.sold-month{
     position: relative;
     top:-35px;
     line-height: 1.5625rem;
@@ -353,7 +321,7 @@ button#button-addon8 {
     text-align: center;
     margin: 5px 10px;
 }
-#name-product{
+.name-product{
     position: relative;
     top: -30px;
     text-align: left;
@@ -362,8 +330,7 @@ button#button-addon8 {
     font-size: 1.125rem;
 }
 .name-product-re p{
-    position: relative;
-    left: 5px;
+    padding: 0 5px;
 }
 .top {
     position: absolute;
@@ -430,14 +397,14 @@ button#button-addon8 {
 }
 .sponsor{
     position: relative;
-    top: -30px;
-    right: 10px;
-    width: 50px;
+    top: -80px;
+    left: 32px;
+    width: 40px;
     text-align: center;
     float: right;
     border-radius: 2px;
     background: rgba(0,0,0,.3);
-    font-size: .75rem;
+    font-size: .7rem;
 }
 .discount{
     width: 50px;
@@ -466,7 +433,7 @@ button#button-addon8 {
 }
 .price-product{
     position: relative;
-    font-size: .8rem;
+    font-size: .7rem;
     left: 5px;
 }
 .price{
@@ -659,7 +626,7 @@ i.fa.fa-angle-right {
 }
 @media (min-width: 1200px) and (max-width: 1399.98px){
     .logo-2{display: none;}
-    .sp12 {
+    .sp12-trending {
         position: relative;
         top: 50px;
         line-height: 1.5rem;
@@ -688,7 +655,7 @@ i.fa.fa-angle-right {
     .logo-2{
         display: none;
     }
-    .sp12 {
+    .sp12-trending {
         position: relative;
         top: 30px;
         line-height: 1.5rem;
@@ -710,7 +677,7 @@ i.fa.fa-angle-right {
     .logo{
         display: none;
     }
-    .sp12 {
+    .sp12-trending {
         position: relative;
         top: 13px;
         line-height: 1.5rem;
@@ -831,15 +798,14 @@ i.fa.fa-angle-right {
     button#button-addon8{
         border: none;
     }
-  
     .logo-2{
-        padding: 10px 5px 10px 0;
+        padding: 20px 7px 10px 0;
         text-align: end;
         background-image: url('../img/oni_web.png');
     }
     .cart-2 {
         position: relative;
-        top: -5px;
+        top: -6px;
         font-size: 25px;
     }
     .cart-2 i{
