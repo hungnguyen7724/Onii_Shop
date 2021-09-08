@@ -147,6 +147,7 @@ button#button-addon8 {
 .content-lg2{
     display: flex;
 }
+
 /* Content */
 .cover-content{
     background: #f5f5f5;
@@ -250,7 +251,11 @@ button#button-addon8 {
     margin: 10px 0 10px 25px;
 }
 /* Xu Hướng Tìm Kiếm */
-
+.trending{
+    color: #0000008a;
+    margin-left: 10px;
+    padding: 10px 0;
+}
 .trend a{
     text-decoration: none;
     color: black;
@@ -304,6 +309,11 @@ button#button-addon8 {
 }
 .toptimkiem .owl-carousel .owl-item img{
     height: 180px;
+}
+.topsearch{
+   color: #ee4d2d;
+   margin-left: 10px;
+   padding: 10px 0;
 }
 .top-search .owl-theme .owl-nav {
     position: absolute;
@@ -737,6 +747,12 @@ i.fa.fa-angle-right {
         color: #757575;
         font-size: 5px;
     }
+    .sp12-trending {
+        position: relative;
+        left: 5px;
+        top: 90px;
+        line-height: 1.5rem;
+    }
     input.form-control{
         max-width: 94%;
     }
@@ -747,6 +763,9 @@ i.fa.fa-angle-right {
     }
     .price-product {
         font-size: 15px;
+    }
+    .trending,.topsearch{
+        font-size: 13px;
     }
 }
 
@@ -781,12 +800,17 @@ i.fa.fa-angle-right {
     width: 50%;
     background: white;
     }
+    .sp12-trending {
+        position: relative;
+        top: 60px;
+        left: -15px;
+        line-height: 1.5rem;
+    }
     .sp-left {
         width: 50%;
         background: white;
-        position: relative;
-        top: 35px;
-        left: 5px;
+        padding-top: 20px;
+        padding-left: 60px;
     }
 }
 @media only screen and (max-width: 991px){
@@ -802,7 +826,6 @@ i.fa.fa-angle-right {
     button#button-addon8{
         border: none;
     }
-  
     .logo-2{
         padding: 20px 7px 10px 0;
         text-align: end;
@@ -811,7 +834,7 @@ i.fa.fa-angle-right {
     .cart-2 {
         position: relative;
         top: -6px;
-        font-size: 25px;
+        font-size: 24px;
     }
     .cart-2 i{
         color: white;
@@ -851,5 +874,4 @@ i.fa.fa-angle-right {
     .logo-2 input.form-control {
         height: 28px;
     }
-   
 } 
