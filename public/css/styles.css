@@ -762,7 +762,7 @@ i.fa.fa-angle-right {
         left: 2px;
     }
     .price-product {
-        font-size: 15px;
+        font-size: 13px;
     }
     .trending,.topsearch{
         font-size: 13px;
@@ -783,6 +783,11 @@ i.fa.fa-angle-right {
         text-align: center;
         font-size: 7px;
     } 
+    .sp12-trending {
+        position: relative;
+        top: 30px;
+        line-height: 1.5rem;
+    }
 }
 
 @media (min-width:376px) and (max-width: 575.98px){
@@ -870,7 +875,6 @@ i.fa.fa-angle-right {
         top: 4px;
         left: 7px;
     }
-    
     .logo-2 input.form-control {
         height: 28px;
     }
