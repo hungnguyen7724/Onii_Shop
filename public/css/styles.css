@@ -132,6 +132,7 @@ html, body {
 
 /* icon search */
 input.form-control {
+    border-radius: 0px;
     padding: 10px;
     margin-right: -70px;
 }
@@ -179,6 +180,15 @@ button#button-addon8 {
 .bg-category .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
     display: block;
 }
+.bg-category .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top:-10px;
+    left: -14px;
+}
+.bg-category .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top:-10px;
+}
 .category-farames{
     padding: 2px;
     background: white;
@@ -197,7 +207,7 @@ button#button-addon8 {
 .text-category{
     font-size: .875rem;
     width: 100%;
-    height: 3.7rem;
+    height: 3rem;
     text-align: center;
 }
 .owl-item.active {
@@ -642,7 +652,14 @@ i.fa.fa-angle-right {
         top: 50px;
         line-height: 1.5rem;
     }
+    .text-category {
+        font-size: .8rem;
+        width: 100%;
+        height: 3rem;
+        text-align: center;
+    }
 }
+    
 /*  */
 @media (min-width: 992px) and (max-width: 1199px){
     .item-slide:first-child{
@@ -671,6 +688,12 @@ i.fa.fa-angle-right {
         top: 30px;
         line-height: 1.5rem;
     }
+    .text-category {
+        font-size: .8rem;
+        width: 100%;
+        height: 3rem;
+        text-align: center;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .item-slide:last-child{
@@ -692,6 +715,11 @@ i.fa.fa-angle-right {
         position: relative;
         top: 13px;
         line-height: 1.5rem;
+    }
+    .logo-2 .cart {
+        position: relative;
+        right: 2px;
+        top: 0px;
     }
 }
 
@@ -756,10 +784,17 @@ i.fa.fa-angle-right {
     input.form-control{
         max-width: 94%;
     }
+    .input-group {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 93%;
+    }
     .cart {
         position: relative;
         top: 0px;
-        left: 2px;
+        right: 2px;
     }
     .price-product {
         font-size: 13px;
@@ -773,7 +808,7 @@ i.fa.fa-angle-right {
     .text-category {
         font-size: 8px;
         width: 100%;
-        height: 3.7rem;
+        height: 2rem;
         text-align: center;
     }
     .sold {
@@ -791,6 +826,18 @@ i.fa.fa-angle-right {
 }
 
 @media (min-width:376px) and (max-width: 575.98px){
+    .input-group {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 97%;
+    }
+    .logo-2 .cart {
+        position: relative;
+        right: 2px;
+        top: 0px;
+    }
     input.form-control{
         max-width: 99%;
     }
@@ -868,6 +915,8 @@ i.fa.fa-angle-right {
         font-size: 10px;
     }  
     i.fa.fa-search {
+        position: relative;
+        left: 10px;
         font-size: 15px;
     }
     .input-group-prepend {
